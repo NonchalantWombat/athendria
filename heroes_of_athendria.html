@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragons</title>
+    <style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+            background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+            background-repeat: repeat; /* This will tile your image across the background */
+            background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+            background-size: 100% auto; /* This will ensure the image covers the entire background */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        #locationList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+    </style>
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('locationList');
+  var items = list.getElementsByTagName('li');
+  var itemsArr = [];
+  for (var i in items) {
+    if (items[i].nodeType == 1) {
+      itemsArr.push(items[i]);
+    }
+  }
+  itemsArr.sort(function(a, b) {
+    return a.innerHTML == b.innerHTML
+            ? 0
+            : (a.innerHTML > b.innerHTML ? 1 : -1);
+  });
+  for (i = 0; i < itemsArr.length; ++i) {
+    list.appendChild(itemsArr[i]);
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>The Heroes of Athendria</strong></h1>
+
+<h2>The Capable Crew</h2>
+
+<h3>Duke Janos Dragonslayer</h3>
+<img src='https://i.postimg.cc/4dV1WGWX/Hemdorak.webp' alt='Hemdorak' style='width:800px;'>
+<p>Originally a poor man performing scams on the streets of Lutetia, Janos...</p>
+
+<h2>The  Gateholders (The Heroes of Harmstead)</h2>
+
+<h3>Lady Galaxea Elsinor, The Stormherald</h3>
+<img src='https://i.postimg.cc/0j7HKmTd/Gellureth-2.webp' alt='Gellureth' style='width:600px;'>
+<p>An elven noblewoman from Uthroim...</p>
+
+<h2>The  Greymoore Gang</h2>
+
+<h3>Dhamiria Kubiri Goldfeather, Arbiter of the Veil</h3>
+<img src='https://i.postimg.cc/pr5FXJnk/Byvorus.webp' alt='Byvorus' style='width:800px;'>
+<p>A skilled warrior from the reclusive drow tribe of the Kubiri, hidden deep in the Darkspire mountains...</p>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guilds and Kingdoms</title>
+  <style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        body {
+          font-family: 'Cambria', sans-serif; /* Example: Arial font */
+        background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+        background-repeat: repeat; /* This will tile your image across the background */
+        background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+        background-size: 100% auto; /* This will ensure the image covers the entire background */
+        }
+        img {
+        max-width: 100%;
+        height: auto;
+        }
+        #locationList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+  </style>
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('locationList');
+  var items = list.getElementsByTagName('li');
+  var itemsArr = [];
+  for (var i in items) {
+    if (items[i].nodeType == 1) {
+      itemsArr.push(items[i]);
+    }
+  }
+  itemsArr.sort(function(a, b) {
+    return a.innerHTML == b.innerHTML
+            ? 0
+            : (a.innerHTML > b.innerHTML ? 1 : -1);
+  });
+  for (i = 0; i < itemsArr.length; ++i) {
+    list.appendChild(itemsArr[i]);
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>Notable Guilds and Kingdoms Across Kamuin</strong></h1>
+<button onclick="sortList()">Sort Alphabetically</button>
+
+<ul id="locationList">
+
+  <li><h2>Choice Cuts Corp <br><img src="https://i.postimg.cc/d3gZXVWW/The-Choice-Cuts-Corporation.png" alt="Choice Cuts Corp" style='width:600px;'><br></h2></li>
+  <li>
+    <h2>Order of the Grasping Fist</h2>
+    <img src="https://i.postimg.cc/YStGTV3w/The-Order-of-the-Grasping-Fist.png" alt="Order of the Grasping Fist" style='width:600px;'>
+    <p> A relatively recent addition to the guilds of Athendria, the <strong>*Way of the Grasping Fist</strong>*, often shortened to <strong>The Grasp</strong>, is a agnostic monastic order of monks focused on physical training and self-enrichment. Founded by Duke Janos Dragonslayer in the year 1075 P.C., The Grasp is located in the small trading city known as <strong>Avaricity</strong>. The Grasp is known for its inclusiveness, welcoming any into its ranks, regardless of prior history or existing conditions (even extending to those cursed with lycanthropy, fleeing the law, or the disabled.) Joining the Grasp requires several extensive years of training, passing through several ranks of achievement before becoming a fully-fledged member. Each acolyte is encouraged to find their own style and approach to life, but are taught the core principles of the Grasp along the way.</p>
+    <h3>10 Tenets of the Way of the Grasping Fist</h3>
+    <ul>
+      <li>1) Wealth leads to success, success leads to happiness, happiness leads to enlightment.</li>
+      <li>2) Rewards are nice, nice people give rewards, earn rewards by helping nice people.</li>
+      <li>3) When other people have mor emoney, other people give YOU more money.</li>
+      <li>4) Realize your desires by reaching out and grasping them. Do not allow your desires to grasp you.</li>
+      <li>5) While recognition and notice are admirable goals, they often make other goals difficult. Apply and seek recognition and notice judiciously.</li>
+      <li>6) Before you have wealth, one exists in a dark place. Simiilarily, before you have victory, one must coexist with dark places.</li>
+      <li>7) The gleam of gold and glory is often grasped by deeds done in darkness with deiscretion.</li>
+      <li>8) When you grasp your dreams, make of your hand a fist, and hold your treasures tighlty. They cannot always be replaced.</li>
+      <li>9) The face is a flexible tool, built for deception and honesty both. The fist is an unyielding one, built for battle. Grasp the value of both.</li>
+      <li>10) Comrades cannot be replaced. Grasp these treasures the closest, and bring the fist to any who would dare take them from you.</li>
+    </ul>
+    <h3>Goals and Characteristics of the Order of the Grasping Fist</h3>
+    <ul>
+      <li>Generate an order of monks that seek fame and fortune. Mostly fortune.</li>
+      <li>Realize the way of the grasping fist. Achieve greatness and wealth, they lead to enlightenment.</li>
+      <li>Encourage the growth of wealth in all those around them.</li>
+      <li>Respect those who aid the order and value friendships closely.</li>
+      <li>Religiously, worship the guidance of Janos, praise the support of Selune (for her temple) but otherwise choose as you please.</li>
+      <li>Advanced members will serve as mercenaries/guards/agents of wealthy or wealth seeking individuals to bring monetary gain to themselves and the monkastery.</li>
+      <li>Younger members will seek out new followers and explain the ideology of the order.</li>
+      <li>New members will pay a small entrance fee and then spend time learning the tenets and training.</li>
+      <li>Master members will train other members and arrange for the expansion of monkastery property and acquisition of contracts.</li>
+      <li>The monkastery will work closely with the priesthood of Selune, their original and greatest benefactors.</li>
+      <li>Lycanthropy will not be "encouraged" but will be accepted.</li>
+      <li>Expansion into other mercantile endeavors will be smiled upon and encouraged.</li>
+    </ul>
+  </li>
+  <h3>Garb and Tools of the Grasp</h3>
+    <ul>
+      <li>All members of the Grasp must adhere to a loose dress code. The general attire consists of dark clothes with red and gold accents, as well as a characteristic wide-brimmed hat, the hallmark vesture of the order.</li>
+      <li>Common training in fighting styles of the Grasp involve hand-to-hand combat, as well as extensive training with polearms and other martial weapons. Once an acolyte has progressed far enough, they are allowed to pick a fighting style and weapon type they most identify with to gain mastery over.</li>
+    </ul>
+    <h3>Organizational Structure</h3>
+    <ul>
+      <li>At the top, there is but one leader: <strong>Duke Janos Dragonslayer</strong>. While very old, this half-elf man still possesses a poise and aura of intimidation that make anyone think twice about crossing him. A legendary hero of the realm, Janos once saved thousands of lives with other heroes in decades past. Now, he leads the Grasp with his shrewd business acumen and charismatic style.</li>
+      <li>Below Janos, there are five <strong>Brokers</strong>. Each Broker has nearly as much influence as Janos, and they travel the world establishing airship trade routes, starting new branches of the Grasp, and soliciting opportunities to advance the goals of the Grasp.</li>
+      <li>There are dozens of <strong>Transactors</strong> beneath them, each masters of their art, and proven graduates of the Grasp. This rank is typically the most likely to be obtained by an acolyte who dedicates themselves to decades of study and advancement within the Grasp.</li>
+      <li>The rank and file members of the Grasp are organized into groups of five, known as a <strong>Clutch</strong>, with each sub-member known as a <strong>Knuckle</strong>. Each member is assigned to a Clutch in a specific role, determined by the number of Knuckle they receive (first through fifth). Clutches have various unofficial rankings and descriptions, and are more relatively ranked based on their achievements and performance. Each of the five knuckles has a specific role, defined as the following. For instance, an acolyte named Otis who has been with the Grasp for several years and is currently actively deployed with a specific Clutch, may identify themselves as: <strong>Otis</strong>, <strong>Fifth Knuckle</strong> of the <strong>Emerald Clutch</strong>, on deployment to the city of Drakkengrad for developing new trade routes in collaboration with the Wind Trade Union.</li>
+      <li><strong>First Knuckle (Middle): Leader and Diplomacy</strong></li>
+      <li><strong>Second Knuckle (Ring): Combat Specialist and Physical Training</strong></li>
+      <li><strong>Third Knuckle (Index): Chef and Acquisitions Specialist</strong></li>
+      <li><strong>Fourth Knuckle (Pinky): Medic and Utility Magic</strong></li>
+      <li><strong>Fifth Knuckle (Thumb): Bruiser and Advanced Negotiations</strong></li>
+    </ul>
+  <li><h2>Brotherhood of Hieroneous <br><img src="https://i.postimg.cc/zv2FfNxW/Brotherhood-of-Hieroneous.png" alt="Brotherhood of Hieroneous" style='width:600px;'><br></h2></li>
+  <li><h2>League of Blue Steel <br><img src="https://i.postimg.cc/ZnQ6Scqx/League-of-Blue-Steel.png" alt="League of Blue Steel" style='width:600px;'><br></h2></li>
+  <li><h2>Reznor Dominion <br><img src="https://i.postimg.cc/4ddKx9qL/The-Reznor-Dominion.png" alt="Reznor Dominion" style='width:600px;'><br></h2></li>
+  <li>
+    <h2>Velki Enclave</h2>
+    <img src="https://i.postimg.cc/8507JCV1/The-Velki-Enclave.png" alt="Velki Enclave" style='width:600px;'>
+    <p>An ancient magical society, long ago wiped out by the red dragon Hemdorak after he stole the legendary stone, the Lapis Arca. The ruins of this organization can be found scattered throughout Kamuin and beyond, with the majority of the ruins located deep in the Haunted Wastes. The Velkian Dissidents were a shadowy splinter organization of the now defunct Velki Enclave. Regarded as heretics, they left the organization and formed their own, including a variety of questionable outposts across the land. Their creed stands as: "Knowledge begets Power. Might forces Understanding. We dissidents reject the archaic foundations of the Enclave, and forge a new path in pursuit of these goals."</p>
+  </li>
+  <li><h2>The Sovereign Nation of Bulghraz <br><img src="https://i.postimg.cc/bNGQRK6C/Order-of-the-Gilded-Rose.png" alt="The Sovereign Nation of Bulghraz" style='width:600px;'><br></h2></li>
+  <li><h2>United Magipalities <br><img src="https://i.postimg.cc/y6pmcVT3/Magipalities.png" alt="United Magipalities" style='width:600px;'><br></h2></li>
+  <li><h2>Alder Conclave <br><img src="https://i.postimg.cc/nc51bHjf/Alder-Conclave.png" alt="Alder Conclave" style='width:600px;'><br></h2></li>
+  <li><h2>Rustbuckets <br><img src="https://i.postimg.cc/13DPp2Dq/Rustbuckets.png" alt="Rustbuckets" style='width:600px;'><br></h2></li>
+  <li><h2>Midlands <br><img src="https://i.postimg.cc/MKXYFcGY/Drakengrad.png" alt="Midlands" style='width:600px;'><br></h2></li>
+  <li><h2>Uryon Confederation <br><img src="https://i.postimg.cc/BvydkC50/Uryon-Confederation.png" alt="Uryon Confederation" style='width:600px;'><br></h2></li>
+  <li><h2>Brilliant Bastion <br><img src="https://i.postimg.cc/j2DJZ7hw/The-Brilliant-Bastion.png" alt="Brilliant Bastion" style='width:600px;'><br></h2></li>
+  <li><h2>House Villefranche <br><img src="https://i.postimg.cc/52CSfZLY/Chateau-de-Villecranche.png" alt="House Villefranche" style='width:600px;'><br></h2></li>
+  <li>
+    <h2>Breathless Assassins </h2>
+    <img src="https://i.postimg.cc/hjydLrVR/The-Breathless.png" alt="Breathless Assassins" style='width:600px;'>
+    <p>Assassins’ Guild, localized in the southwest, in an unknown location in the heart of the desert. Their symbol is a gaping mouth. Known for their track record, reliability, kingly price, and secrecy. The organization has existed for hundreds of years, and is a truly neutral party, collaborating only to the highest bidder. Worships Torog, god of Death, and enacts his will through their work. Ranks include Breathless, Expirator, Whisperer, and Arch Suffocant.</p>
+  </li>
+  <li><h2>Thought Thieves <br><img src="https://i.postimg.cc/BnN3YDwS/Thought-Theives.png" alt="Thought Thieves" style='width:600px;'><br></h2></li>
+  <li>
+    <h2>Society of the Distilled Eye</h2>
+    <img src="https://i.postimg.cc/fRcS2ZYK/The-Order-of-the-Discerning-Eye.png" alt="Society of the Discerning Eye" style='width:600px;'>
+    <p>A group of like-minded wizards and magically gifted individuals, found almost exclusively within the Magicisan's Respite in Lutetia. They guard their secrets closely, and work in close proximity to many of the wealthy elites. They're rumored to have shady dealings with the Nightwalkers and other cities. This group fronts as a brewer’s guild. High ranking members are inducted into the inner ranks. Sole purpose is the discovery of new knowledge and ancient magic for the glory of Erathis. Grand Brewmaster of the Verdance is Kussek Runebrew. He collaborated with the team to defeat a Chain Devil in Oakdale, and he invited them to visit the temple of Erathis in Lutetia.</p>
+  </li>
+  <li><h2>Firstborn <br><img src="https://i.postimg.cc/VvFnrDDQ/Firstborn.png" alt="Firstborn" style='width:600px;'><br></h2></li>
+  <li>
+    <h2>Sparkhammers</h2>
+    <p>A professional Merchant/Artisan Guild, composed of only the most skilled and renowned practitioners of craft and smithing. Members are inducted into the ranks once they prove their prowess to a current senior member at the temple of the Allhammer, Moradin in Lutetia. Earning the rank of Hammerspark proves skill and brings a lot of business and interest to its members.</p>
+  </li>
+  <li><h2>Uthorim, Elven Capitol <br><img src="https://i.postimg.cc/KcWT40Zn/The-Elven-Capitol-of-Uthorim.png" alt="Uthorim, Elven Capitol" style='width:600px;'><br></h2></li>
+  <li><h2>Occularis Exaltaris <br><img src="https://i.postimg.cc/xTbzmLCB/The-Exaltus-Occularis.png" alt="Occularis Exaltaris" style='width:600px;'><br></h2></li>
+  <li><h2>Order of Lock and Key <br><img src="https://i.postimg.cc/FKxcRmRR/Order-Of-Lock-And-Key.png" alt="Order of Lock and Key" style='width:600px;'><br></h2></li>
+  <li><h2>Jade Lotus Arsenal <br><img src="https://i.postimg.cc/HnnbRKTL/Jade-Lotus-Arsenal.png" alt="Jade Lotus Arsenal" style='width:600px;'><br></h2></li>
+  <li><h2>Order of the Humble Palm <br><img src="https://i.postimg.cc/jdGy3Zms/Mendicant-Sages.png" alt="Order of the Humble Palm" style='width:600px;'><br></h2></li>
+  <li><h2>Blood of the Lion <br><img src="https://i.postimg.cc/HW62z0Tx/Blood-of-the-Lion.png" alt="Blood of the Lion" style='width:600px;'><br></h2></li>
+  <li><h2>Cult of the Ox and Yoke <br><img src="https://i.postimg.cc/76x3Mhc0/Cult-of-the-Ox-and-Yoke.png" alt="Cult of the Ox and Yoke" style='width:600px;'><br></h2></li>
+  <li><h2>Cult of the Creamlord <br><img src="https://i.postimg.cc/cJGMCXBD/Cult-of-the-Cream-Lord.png" alt="Cult of the Creamlord" style='width:600px;'><br></h2></li>
+  <li><h2>The Draconic Triad <br><img src="https://i.postimg.cc/g0yyZ8MG/Draconic-Triad.png" alt="Draconic Triad" style='width:600px;'><br></h2></li>
+
+</ul>
+</body>
+</html>

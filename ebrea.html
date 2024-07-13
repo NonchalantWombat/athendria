@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ebrea</title>
+	<style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+		body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+			background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+			background-repeat: repeat; /* This will tile your image across the background */
+			background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+			background-size: 100% auto; /* This will ensure the image covers the entire background */
+		}
+        img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px; /* Smooth, cureved edges */
+        }
+        #locationList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+        .custom-bullet-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .custom-bullet-list li {
+            position: relative; /* Needed for absolute positioning */
+            padding-left: 40px; /* Space for the bullet */
+        }
+        .custom-bullet-list li::before {
+            content: ''; /* Required for a pseudo-element */
+            position: absolute; /* Position relative to the li */
+            left: 0; /* Align to the left */
+            top: 0; /* Align to the top of the li */
+            background: url('Ebrea_Outline.svg') no-repeat left center; /* Your SVG */
+            background-size: 30px 30px; /* Adjust as needed */
+            width: 30px; /* Width of the bullet */
+            height: 30px; /* Height of the bullet */
+        }
+        /* Reset styles for nested UL */
+        .custom-bullet-list ul {
+            list-style-type: disc; /* Resets to default bullet points */
+            margin-left: 20px; /* Indentation for nested list */
+        /* Any other default styles you want to reset */
+        }
+        .custom-bullet-list li ul li::before {
+            content: none; /* Removes custom bullet icon for nested list items */
+            background-size: 0px 0px; /* Adjust as needed */
+            width: 0px; /* Width of the bullet */
+            height: 0px; /* Height of the bullet */
+        }
+        svg path {
+            transition: fill 0.3s; /* Smooth transition for hover effect */
+        }
+
+        svg path:hover {
+            fill: red; /* Change color on hover */
+        }
+        #info-box {
+            position: absolute;
+            border: 1px solid #ddd;
+            background: #eee;
+            padding: 10px;
+            display: none; /* Initially hidden */
+            z-index: 1000; /* High z-index to ensure visibility */
+        }
+        .image-container {
+            position: relative;
+            display: inline-block; /* Or as per your layout needs */
+        }
+
+        .image-container img {
+            display: block; /* Removes bottom spacing */
+            width: 100%; /* Adjust as needed */
+            height: auto; /* Adjust as needed */
+        }
+
+        .image-container svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; /* Match the image size */
+            height: 100%; /* Match the image size */
+        }
+    </style>
+
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('locationList');
+  // Use 'children' to get only direct child li elements
+  var itemsArr = Array.from(list.children);
+
+  itemsArr.sort(function(a, b) {
+    var textA = a.textContent.trim(); // Using textContent to get only text, not inner HTML
+    var textB = b.textContent.trim(); // .trim() to remove any leading/trailing whitespace
+    return textA.localeCompare(textB); // Using localeCompare for better string comparison
+  });
+
+  for (var i = 0; i < itemsArr.length; i++) {
+    list.appendChild(itemsArr[i]); // Re-append each item in sorted order
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>The Continent of Ebrea (The West)</strong></h1>
+
+    <div id="info-box"></div> <!-- Info box for displaying text -->
+
+    <div class="image-container">
+        <!-- Your static image -->
+        <img src="https://i.postimg.cc/wBtm6W4J/Ebrea-Fog-of-War-Border.jpg" alt="Background Image" width="675" height="900">
+
+<svg
+   version="1.1"
+   id="svg923"
+   width="675"
+   height="900"
+   viewBox="0 0 675 900"
+   sodipodi:docname="Ebrea Fog of War (Border).svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs927" />
+  <sodipodi:namedview
+     id="namedview925"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.2708569"
+     inkscape:cx="474.08958"
+     inkscape:cy="433.1723"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g929" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g929">
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 523.48416,679.22079 26.00627,0.0213 0.25922,-13.79057 -3.7902,-9.5574 -4.0599,8.67086 -5.12466,-16.41564 -5.08279,16.28065 -4.40631,-9.02347 -4.06078,9.61936 z"
+       id="crystallia"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 420.12607,389.30534 26.00627,0.0213 0.25922,-13.79057 -3.7902,-9.55739 -4.05989,8.67085 -5.12466,-16.41563 -5.0828,16.28064 -4.40631,-9.02346 -4.06078,9.61935 z"
+       id="ilhihuatl"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 589.89722,124.44659 26.00627,0.0213 0.25922,-13.79058 -3.79019,-9.5574 -4.0599,8.67086 -5.12466,-16.415644 -5.0828,16.280644 -4.40631,-9.02346 -4.06078,9.61936 z"
+       id="bullwark"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 225.01594,615.51246 26.00627,0.0213 0.25923,-13.79057 -3.7902,-9.55739 -4.0599,8.67085 -5.12466,-16.41563 -5.08279,16.28064 -4.40631,-9.02346 -4.06079,9.61935 z"
+       id="xuanya"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.3958,827.45588 22.72309,-0.0426 0.30238,-15.06745 -6.60959,-11.7901 -5.35676,9.02348 -5.14076,-8.98088 -6.39359,11.7475 z"
+       id="thrigrun"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 277.42194,487.97813 22.7231,-0.0427 0.30238,-15.06749 -6.60959,-11.7901 -5.35676,9.02348 -5.14075,-8.98087 -6.39359,11.74749 z"
+       id="undanknottr"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 217.24188,197.77403 22.72309,-0.0426 0.30238,-15.06749 -6.60959,-11.7901 -5.35676,9.02348 -5.14075,-8.98088 -6.39359,11.7475 z"
+       id="highdrift"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 308.4622,301.05626 22.72308,-0.0426 0.30238,-15.06749 -6.60958,-11.7901 -5.35676,9.02347 -5.14076,-8.98087 -6.39359,11.7475 z"
+       id="domrgardr"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 506.06061,432.95582 16.02712,-0.0425 0.30238,-12.38598 -8.29441,-9.49167 -8.3807,9.40655 z"
+       id="parhua"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 478.34914,475.9836 16.02713,-0.0425 0.30238,-12.38598 -8.2944,-9.49167 -8.38072,9.40654 z"
+       id="xochitl"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 451.10974,628.68925 16.02714,-0.0425 0.30237,-12.38599 -8.29441,-9.49167 -8.38071,9.40654 z"
+       id="iouns-oasis"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 300.34284,742.10962 16.02711,-0.0425 0.30238,-12.38598 -8.2944,-9.49167 -8.38071,9.40655 z"
+       id="ugurl"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 112.83439,557.72231 16.02713,-0.0425 0.30238,-12.38599 -8.29441,-9.49167 -8.38071,9.40655 z"
+       id="isle-of-mists"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.31743,533.0106 16.02712,-0.0425 0.30238,-12.38599 -8.29441,-9.49166 -8.3807,9.40654 z"
+       id="barmwich"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.31742,477.88449 16.02712,-0.0425 0.30238,-12.38598 -8.2944,-9.49167 -8.38071,9.40655 z"
+       id="notton"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 209.12251,404.38301 16.02712,-0.0425 0.30238,-12.38598 -8.2944,-9.49167 -8.38072,9.40655 z"
+       id="lybster"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 390.29621,249.14283 16.02712,-0.0425 0.30238,-12.38598 -8.2944,-9.49167 -8.38071,9.40655 z"
+       id="murkshallow"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 387.76231,206.68939 16.02712,-0.0425 0.30238,-12.38599 -8.29441,-9.49166 -8.3807,9.40654 z"
+       id="getra"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 520.15846,177.54226 16.02713,-0.0425 0.30238,-12.386 -8.29441,-9.49166 -8.38071,9.40654 z"
+       id="slabtree"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 423.23687,102.77351 16.02713,-0.0425 0.30238,-12.385984 -8.29441,-9.491665 -8.3807,9.406541 z"
+       id="blackstone"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 309.84494,113.54528 16.02712,-0.0425 0.30238,-12.38598 -8.2944,-9.491671 -8.38071,9.406541 z"
+       id="stonecall"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.20515,264.98367 16.02713,-0.0425 0.30238,-12.38598 -8.29441,-9.49167 -8.38071,9.40654 z"
+       id="goldenleaf"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+</svg>
+
+</div>
+
+<script>
+const sectionMap = {
+    'crystallia': 'section-crystallia',
+    'ilhihuatl': 'section-ilhihuatl',
+    'bullwark': 'section-bullwark',
+    'xuanya': 'section-xuanya',
+    'thrigrun': 'section-thrigrun',
+    'highdrift': 'section-highdrift',
+    'domrgardr': 'section-domrgardr',
+    'parhua': 'section-parhua',
+    'xochitl': 'section-xochitl',
+    'iouns-oasis': 'section-iouns-oasis',
+    'ugurl': 'section-ugurl',
+    'isle-of-mists': 'section-isle-of-mists',
+    'barmwich': 'section-barmwich',
+    'notton': 'section-notton',
+    'lybster': 'section-lybster',
+    'murkshallow': 'section-murkshallow',
+    'getra': 'section-getra',
+    'slabtree': 'section-slabtree',
+    'undanknottr': 'section-undanknottr',
+    'blackstone': 'section-blackstone',
+    'stonecall': 'section-stonecall',
+    'goldenleaf': 'section-goldenleaf',
+};
+
+    // Information to display on hover
+const infoText = {
+    'crystallia': 'Crystallia',
+    'ilhihuatl': 'Ilhihuatl',
+    'bullwark': 'The Bullwark',
+    'xuanya': 'Xuanya',
+    'thrigrun': 'Thrigrun',
+    'undanknottr': 'Undanknottr',
+    'highdrift': 'Highdrift Herd',
+    'domrgardr': 'Domrgardr',
+    'parhua': 'Parhua',
+    'xochitl': 'Xochitl',
+    'iouns-oasis': 'Iouns Oasis',
+    'ugurl': 'Ugurl',
+    'isle-of-mists': 'The Isle of Mists',
+    'barmwich': 'Barmwich',
+    'notton': 'Notton',
+    'lybster': 'Lybster',
+    'murkshallow': 'Murkshallow',
+    'getra': 'Getra',
+    'slabtree': 'Slabtree',
+    'blackstone': 'Blackstone Obelisk',
+    'stonecall': 'Stonecall',
+    'goldenleaf': 'Goldenleaf'
+};
+
+    document.querySelectorAll('svg path').forEach(function(path) {
+        path.addEventListener('mouseenter', function(event) {
+            const infoBox = document.getElementById('info-box');
+            infoBox.style.display = 'block';
+            infoBox.textContent = infoText[this.id];
+            infoBox.style.left = (event.clientX + 10) + 'px';
+            infoBox.style.top = (event.clientY + 10) + 'px';
+        });
+
+        path.addEventListener('mouseleave', function() {
+            document.getElementById('info-box').style.display = 'none';
+        });
+
+        path.addEventListener('click', function() {
+            const targetSectionId = sectionMap[this.id];
+            const targetSection = document.getElementById(targetSectionId);
+
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                console.error('No section found for ID:', targetSectionId);
+            }
+        });
+    });
+</script>    
+
+<p> A wild and mostly untamed continent, ruled by the strong who tread on the weak. This land is home to extremes: blistering deserts, sweltering tropics, volcanic mountains, icy tundras, floating islands, mysterious expanses and barbaric tribes. In the eastern half of the continent, north of the desert regions and south of the tundra, lies the Tropics of Arabangan. This massive expanse of dense jungles and assorted tribes is home to a teeming mass of life, mostly reptilian.</p>
+
+<h1><strong>Notable Locales of Ebrea:</strong></h1>
+
+<button onclick="sortList()">Sort Alphabetically</button>
+
+<ul class="custom-bullet-list" id="locationList">
+
+    <li><h2 id="section-aeracrest">Aeracrest<br><img src='https://i.postimg.cc/B6DgBL2t/Aeracrest.png' alt='Aeracrest' style='width:600px;'></h2></li>
+    <li><h2 id="section-crystallia">Crystallia<br><img src='https://i.postimg.cc/vZc5vxsM/Crystallia.webp' alt='Crystallia' style='width:600px;'></h2>
+    <p> The three airship dock pyramids of Crystallia are its defining landmarks. Built a hundred years ago, these structures function as landing points and construction bays for a multitude of airships from across the continent and beyond. Lacking in natural resources, Crystallia relies on the floating islands of the Isles Gravitas and trade with the other continents to support its diverse and thriving economy. The methods and techniques for refining the floating islands into usable airships are closely guarded secrets by the noble houses of the Caliphate, the primary ruling body of Crystallia.</p>
+    <ul>
+        <li> The Marquis Hathorisis: Residing within the largest pyramid Apheru, the Marquis is responsible for the largest chunk of the Caliphate and production of airships. He is responsive to expensive gifts.</li>
+        <li> Ambassador Narisnyl Dryaalis: The Reznor Ambassador, responsible for trade agreements and bartering with the noble houses of Crystallia. This Drow politician is cunning and dedicated to supporting his people's interests in Ikesh.</li>
+        <li> DuBois Villefranche: The youngest of five, this cleric of Pelor operates his estates on the outskirts of the city. He is related to the Marquis, and has some influence within the trading families.</li>
+        <li> Madomoisaile Deathbell: The sole proprietor of the Pistachio Inn, a wildly successful tavern on the shore of Crystallia. She is a rotund brown tiefling and doesn't take nonsense from anyone.</li>
+        <li> Rucos: A lizardfolk taskmaster, Rucos is responsible for many buisnessses within the Tousarte, a collection of shops and stalls selling items from many regions.</li>
+        <li> Cleqi the Swift: birdfolk Mining Operator, responsible for steering the floating rocks to the outskirts of Crystallia.</li>
+    </ul>
+    </li>
+    <li><h2 id="section-kharstlands">The Kharstlands<br><img src='https://i.postimg.cc/MpSvncpd/Kharstlands.png' alt='The Kharstlands' style='width:600px;'></h2></li>
+    <li><h2 id="section-xuanya">Xuanya<br><img src='https://i.postimg.cc/zXmQ6h7z/Xuanya.png' alt='Xuanya' style='width:900px;'></h2>
+    <p> Nestled in the karst-riddled, foggy hills of the western edge of the Plymedes, this reclusive city is home to mostly hobgoblin artisans.</p>
+    <p> Important Entities:
+    <ul>
+        <li> Leader of the Bảo Dynasty: Gōng Giang Bảo</li>
+        <li> Leader of the Sangpo Dynasty: Fūrén Lin Sangpo</li>
+        <li> Bùqiāng is the repeating rifle, developed by Elder Ma Bao</li>
+    </ul>
+    </li>
+    <li><h2 id="section-highdrift">The Highdrift Herd<br><img src='https://i.postimg.cc/kXtnF7pz/Highdrift-Herd.png' alt='The Highdrift Herd' style='width:600px;'></h2></li>
+    <li><h2 id="section-crystal-sands">The Crystal Sands<br><img src='https://i.postimg.cc/PfyZsQfT/Crystal-Desert.png' alt='The Highdrift Herd' style='width:600px;'></h2></li>
+    <li><h2 id="section-bullwark">The Bullwark<br><img src='https://i.postimg.cc/xdmHwr84/Bullwark.png' alt='The Bullwark' style='width:600px;'></h2></li>
+    <li><h2 id="section-null-plains">The Null Plains<br><img src='https://i.postimg.cc/9X1VjJ4m/Null-Plains.png' alt='The Null Plains' style='width:600px;'></h2></li>
+    <li><h2 id="section-ilhihuatl">Ilhihuatl<br><img src='https://i.postimg.cc/x1vnhtYP/Ilhuatl.png' alt='Ilhihuatl' style='width:600px;'></h2></li>
+    <li><h2 id="section-godsgate">Godsgate Caldera<br><img src='https://i.postimg.cc/t4W4y9dW/Godsgate-Caldera.png' alt='Godsgate Caldera' style='width:600px;'></h2></li>
+    <li><h2 id="section-sway">The Sway<br><img src='https://i.postimg.cc/B66pPSCw/Sway.png' alt='The Sway' style='width:600px;'></h2></li>
+    <li><h2 id="section-domrgardr">Domrgardr<br><img src='https://i.postimg.cc/Kc0KscQY/Domgardar.png' alt='Domrgardr' style='width:600px;'></h2></li>
+    <li><h2 id="section-tusk-wilds">The Tusk Wilds<br><img src='https://i.postimg.cc/PfLGBTk4/Tusk-Wilds.png' alt='The Tusk Wilds' style='width:600px;'></h2>
+    <p>  Within the Tusk Wilds lies Thrigrun, home to the Order of Heironeous. Some of the notable members are:</p>
+    <ul>
+        <li> Brother Brometheus, High Marshal </li>
+        <li> Broledad the Broad, Pledge Educator </li>
+        <li> Marco Brolo, Treasurer </li>
+        <li> Brojohsephat, House Manager </li>
+        <li> Lebrona Helmsley, Social Chair </li>
+        <li> Brohan the Beefy, Housing Officer </li>
+        <li> Kate Brolsen, Philantropy Chair </li>
+    </ul>
+    </li>
+    <li><h2 id="section-iowanas=oasis">Iowana's Oasis<br><img src='https://i.postimg.cc/G27cztrw/Iowana-s-Oasis.webp' alt='The Tusk Wilds' style='width:600px;'></h2></li>
+    <li><h2 id="section-tropics">The Tropics of Arabangan<br><img src='https://i.postimg.cc/X7FRYLqB/Tropics-of-Arabangan.png' alt='The Tropics of Arabangan' style='width:600px;'></h2>
+    <p> Ilhihuatl: An ancient city in the deepest regions of the jungle, ruled by powerful sorcerous yuan-ti. The civilization stands out as having overcome the primal savagery of the tropics to some extent, and has an unexpected amount of order within. The primary deity is the demonic entity Merrshaulk, the Night Serpent, and all of society revolves around his worship, demanding regular sacrifices and rituals. The Yuan-Ti shun any other races, maintaining a hostile and exclusive dominanace over the immediate region. They have avoided the Thirst by regularly giving tribute to Syvleth's demands.</p>
+    <p> Xochitl: The ruins of an ancient small city, now overrun by feral dragonborn, lizardfolk, and kobold refugees. Their leader, Chief Coazoeh the Orange Fang, oversees foraging and maintains the unruly lot. The pecking order resolves to size and strength, with magic users being at the top.</p>
+    <p> Parhua: A tribal village consisting primarily of tortles, this remains to be the last major gathering of tortles in the region. Heavily impacted by Syvleth's breath, but unwilling to leave their ancestral home, the tortles languish stubbornly.</p>
+    <p> The Maw of Achli: A massive cave in the heart of the jungle, and the origin of Syvleth. This once was the location of an ancient Velkian dissident biological laboratory. Syvleth is the culmination of heinous experiments with necromancy and genetic tampering. The deepest parts of the caves still have some research enclosures intact, running on long-forgotten technology. Adventurors investigating here will likely be devoured by Syvleth, but those who sneak past have much to learn from the ancient technology and records within.</p>
+    <p> Teyaco Mire: This vile marshland is rumored to be the last site of a battle between a water goddess and Melora. The water and the land exsist in perpetual change, and few who venture in ever return. Dangerous monsters lurk beneath the murky waters.</p>
+    </li>
+    <li><h2 id="section-isle-of-mists">Nangshi Monastery<br><img src='https://i.postimg.cc/YS1KD3Kw/Nangshi-Monastery.png' alt='Nangshi Monastery' style='width:600px;'></h2></li>
+    <li><h2 id="section-blackstone">Blackstone Obelisk<br><img src='https://i.postimg.cc/y8YLCNCr/Blackstone-Obelisk.webp' alt='Blackstone Obelisk' style='width:600px;'></h2></li>
+    <li><h2 id="section-undanknottr">Undanknottr<br><img src='https://i.postimg.cc/QdJvpMpX/Undanknottr.png' alt='Undanknottr' style='width:600px;'></h2></li>
+    <li><h2 id="section-teyaco">Teyaco Mire<br><img src='https://i.postimg.cc/26Kw4scj/Teyaco-Mire.png' alt='Teyaco Mire' style='width:600px;'></h2></li>
+    <li><h2 id="section-notton">Notton<br><img src='https://i.postimg.cc/9FnhD0ts/Notton.png' alt='Notton' style='width:600px;'></h2></li>
+    <li><h2 id="section-murkshallow">Murkshallow<br><img src='https://i.postimg.cc/3NrTvDqQ/Murkshallow.png' alt='Murkshallow' style='width:600px;'></h2></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,263 @@
+Athendria Summary: The Multiverse
+
+In this D&D-inspired fantasy setting, Athendria is but one planet in a sea of stars, situated in the sweet spot for life between the yellow sun Du and the third planet from its light, Yoria. It has a primary moon, Onia, which circulates Athendria and completes a full lunar cycle once precisely every 44 days (resulting in 7 lunar cycles per year). The secondary moon, Marius, is dim, reddish, and less visible in the night sky, but also completes a similar cycle. In the night sky, the blue gas giant Yoria is visible around half of the year, with its immense size becoming visibly larger than Onia during peak periapsis with Athendria. When this occurs, the tides and weather patterns grow more intense, and as such some denizens of Athendria associate Yoria with the gods of storms and oceans.
+
+Xophus is too far to be seen by the naked eye, and usually resembles a distant dot in the sky, not unlike a star. Niri is similarly difficult to see in the night sky, due to its diminutive size, and is generally ignored by Athendrians. Du is the source of heat and light in this solar system, and is associated with the Gods of heat, light, growth, and life.
+
+The Galaxy has been spinning long before sentient life came to dwell upon Athendria, but since it has, the world has exploded in a myriad of waxing and waning civilizations, technologies, eras and cultures. Currently, the calendar year in Athendria is at 1095 Post Cataclysm, and is in the midst of a relatively calm and prosperous era...
+
+Upon Athendria lie three main continents: Kamuin in the east, Ebrea in the west, and Ikesh to the south. Both the poles have ice caps, but few adventurers ever venture that far into the reaches of the world.
+
+Kamuin is a well-explored and civilized continent, containing many kingdoms, cities, and villages. It is mostly temperate, with unique and beautiful regions, and represents an excellent starting point for any adventure.
+
+Ebrea is mostly unexplored, a wild and untamed continent containing dense and dangerous jungles, volcanoes, frozen tundras and blistering deserts. A few bastions of civilization exsist, taking advantage of Ebrea's abundant resources, but they are few and far between.
+
+Ikesh is a dark and dreary continent in the southern seas, home to several powerful and domineering forces. A dominant civilization of Dark Elves, known as the Reznor Dominion, has often sought to expand its borders, and regularly engages in wars with other, smaller civilizations on the borders of the continent. 
+
+Beyond the Big Three Continents, there are various smaller islands and landmasses which give home to other countries, hidden locales, secret paradises, and more. If you wander in this world, you are certain to find something of interest, be it at the subzero temperatures of the ice caps, the crushing depths of the Vanjan Sea, the bubbling magma pools of Godsgate Mountain, the towering pine tree forests of the Killifyn Wilds, or in the depths of the mines in Grozmirlun, the capitol of the Dwarven Kingdom of Groz.
+
+The Velkian Calendar: Each Month has 28 days, and there are eleven months in the year, depicted in the following table:
+
+| Month | Days | Major Holidays | Weather |
+|:---:|:---:|:---:|:---:|
+| Nimbus | 28 | N/A | Cold, Ice |
+| Mistro | 28 | N/A | Cold, Rain |
+| Durak | 28 | The Festival of Growth | Warm, Rain  |
+| Isoldre | 28 | N/A | Warm, Temperate |
+| Ahwa | 28 | N/A | Hot, Temperate |
+| Silvara | 28 | The Festival of Warmth | Hot, Dry |
+| Sevana | 28 | N/A | Warm, Dry |
+| Sirius | 28 | N/A | Cool, Dry |
+| Navar | 28 | The Festival of Harvest | Cool, Rain |
+| Nanook | 28 | N/A | Chill, Dry |
+| Eben | 28 | The Festival of Night | Cold, Snow |
+
+Festivals:
+ Growth: As the snow and ice begins to melt, celebrants spend the mornings working hard to plant and till the earth. Evenings are spent wearing lavish colors, decorating, and creating flamboyant costumes. Each partier attempts to draws attention to their own appearance, and casks of wine and ale, now aged through the winter, and opened as hedonism reigns supreme.
+
+ Warmth: To evade the summer heat, most activities focus on the outdoors and water-related activities. Across the continent, participants use bodies of water to generate exciting competitions. Many competitive events, focused on endurance, dexterity, and strength take advantage of water to cool the heat, including swimming races, log rolling, and basket weaving. Many early crops and summer harvests are devoured in the process.
+
+Harvest: A celebration of the coming of fall, and the end of the warm months. This week of festivities is marked by autumnal decorations, bountiful feasting, and traveling troupes of circus performers. It is custom for these entertainers to visit erous cities during the week, sharing their curiosities and performances with the more rural towns. In the larger cities, whole regions are cordoned off to establish permanent fairgrounds where anyone may partake in the festivities.
+
+Night: An acknowledgement of the closing of the year and the longest nights of the season. Each sunset marks the beginning of celebrations as each person does their part to contribute to bright lights, magical or mundane, to illuminate the long darkness. Festive meals, dependent on the regions, tap into the now brimming stores of food before the long winter settles in. Gift giving is a common tradition, as are acts of charity to help those less fortunate before the winter severity settles.
+
+The Various Races of Athendria:
+
+ The Common Races
+
+ Humans
+
+ Elves: 
+- High Elves
+- Forest Elves
+- Dark Elves
+
+ Dwarves:
+- Mountain Dwarves
+- Hill Dwarves
+- Deep Dwarves
+
+ Orcs:
+- Kamui Orcs
+- Ebrean Orcs
+- Orogs
+
+ Goblins
+- Cinderskins
+- Bluebrows
+- Forestfolk
+- Hobgoblins
+- Bugbears
+
+ Smallfolk:
+- Gnomes
+- Lightfoots
+- Strongarms
+
+ Uncommon Races:
+
+ Uryons (Warforged)
+- Utility Designation
+- Combat Designation
+- Service Designation
+
+ Dragonborn
+- Chromatic Dragonborn
+- Metallic Dragonborn
+- Gemstone Dragonborn
+
+
+
+ Giantfolk:
+- Firbolgs
+- Half-Giants
+
+ Blightbloods:
+- Infernal Bloodline
+- Demonic Bloodline
+
+ Reptilia:
+- Turtlefolk
+- Lizardfolk
+- Snakefolk
+- Kobolds
+
+ Pantheri:
+- Catfolk
+- Lionfolk
+
+ Rare Races:
+
+ Angelborn
+- Protector
+- Scourge
+- Fallen
+
+ Elemental Lineages
+- Fire-blessed
+- Earth-blessed
+- Water-blessed
+- Air-blessed
+
+ Birdfolk:
+- Winged
+- Landbound
+
+ Aquaan
+- Tritons
+- Merfolk
+- Octarians
+
+ Shifters
+- Swiftstride
+- Longtooth
+- Beasthide
+
+ Fae-Touched
+- Changelings
+- Satyrs
+- Fairy
+
+
+Gods of Athendria:
+
+There are many deities which receive worship within the realm of Athendria. The good and neutral deities receive active worship, while worshippers of the evil or destructive deities are more widely rejected and persecuted. Many individuals may worship more obscure entities, or cultural groups may follow distinct deities, such as the widespread orc worship of Gruumsh. Here are several significant deities across the continents:
+
+ Good Deities (The Seven)
+
+ Bahamut: The Plati Dragon
+- Domain: Justice
+- Subdomains: Just War, Strength, Curiosity
+- The lawful good deity, and primary figurehead for worship by the Dragonborn, this is a benevolent plati dragon who is responsible for order, new life, and rebirth.
+
+ Kord: The Harbinger
+- Domain: Perseverance
+- Subdomains: Storms, Combat, Forging
+- A chaotic good God, his followers adhere to rules of ritual combat, and strive to distinguish themselves in battle using their own strength and weapons on their own creation.
+
+ Melora: The Earth Mother
+- Domain: Nature
+- Subdomains: Birth, Farming, Weather, Healing 
+- The chaotic good goddess of nature, and clerical sponsor of Spinel. She gave Spinel the charge of restoring balance to the world, and respecting the natural order of nature as it should be. She watches Spinel’s progress with interest. She recently released the full potential of Spinel’s staff after the Capable Crew defeated the Kraken.
+
+ Pelor: The Dawn Bringer:
+- Domain: Light
+- Subdomains: Kindness, Warmth, Altruism, Charity, Sunrise, Farming
+- The neutral good god, Pelor is well-liked amongst the empire and beyond, and is one of the most-worshipepd deities in the modern pantheon.
+
+ Ioun: The Knowing Mistress
+- Domain: Knowledge 
+- Subdomains: Secrets, Education, Creativity, Intuition
+- This neutral goddess is commonly worshiped by historians and arcane magic users, and she is often associated with Erathis and Mirrodin for their shared roles in shaping society.
+
+
+
+ Erathis: The Edifier
+- Domain: Civilization
+- Subdomains: Motivation, Industry, Technology 
+- This true neutral god is admired by some wizards and political figures for its pure expression of progress for progress's sake.
+
+ Heironeous: The Brother
+- Domain: Friendship, Camaraderie
+- Subdomains: Community, Healing, Mental and Physical Health, Purpose
+- Heironeous is worshipped by crusaders for chivalry, brotherhood, and justice, who go out into the world and promote goodwill. His opposite, Hextor, is followed by dark and hateful creatures seeking discord and violence.
+
+Neutral Deities:
+
+ The Raven Queen: Shepard of the Dead
+The Goddess of night and the afterlife, this is a lawful neutral deity feared by many. Poorly understood, she is worshipped for her role in shepherding the dead to their places across the planes in the afterlife.
+
+ Mirrodin: The Allfather:
+A dwarven god of Invention and Tinkering, this chaotic good deity is also commonly worshipped by gnomes. He is friends with Ioun and Erathis.
+
+ Aegir/Aegira: The Deepwalker
+A god of the oceans, the depths, contemplation, and aquatic creatures good and bad. Aegir has a dual nature; Aegira represents their lawful side, focusing on healing, community, bountiful fishing, and more. Aegir represents their chaotic side, focusing on riptides, lurking monsters in the depths, horrible storms at sea, solitude, and more. Sailors used to pay tribute to Aegir before a voyage, praying for safe passage, but worship of the deity went out of style in favor of Kord or Melora (Storms and Nature).
+
+ Grom: The Orcsire
+
+Ingvar: The Fickle
+    
+Evil Deities
+
+ Orcus: The Undying
+A chaotic evil demon lord of Undeath, who resurrects powerful evil to torment others in retribution. It seems to be taking an interest in adventurers in Athendria, seeking to influence them and find a way out of the depths of the Abyss. If it had its way, it would end all life, leaving the universe in a permanent state of undeath.
+
+ Mammon: The Lord of Greed
+The lawful evil Arch-Devil of wealth and lies, whose power trickles down to those who seek wealth via a series of decreasingly powerful devils.
+
+ Hextor: The God of Strife
+The antithesis of Hieroneous, Hextor is a 6-armed menace, bent on the destruction of civilization through war and chaos.
+
+ Lolth: The Spider Queen
+A forbidden drow diety, this ancient being is the goddess of the underdark and spiders.
+
+ Torog: The Crawling King
+A lawful evil god of death and decay, depicted as a giant crawling worm with a human face, this deity focuses on what happens after death to the body. The Breathless Assassins' guild in Modouli worship him exclusively, but few other individuals outside of the clerical profession call upon his influence.
+
+ Annam: Father to Giants
+The orignial father of the different giant races, and long since believed dead or asleep by giantkind.
+
+ Bialis Archon: ???
+A mysterious forgotten deity, whose desire for entertainment is never satisfied. It seeks heros and villans, transports them to a demi-plane of his own design, and commands them to engage in mortal combat, rewarding the victor with wealth or good fortune in the Athendria afterwards.
+
+ Shar, Goddess of Night and Shadow
+The dark sister to Selûne. A once powerful goddess of shadow, this entity now resides in the Shadowfell in a ruined onyx palace, dealing with mortals to learn new knowledge, secrets, and twist their lives. She has a personal vendetta against Pelor from the conflicts of the past, and wants Nameless to bring her his archangel, Azazel. Shar resembles a woman with flowing back hair, but has a rudimentary face of shifting shadow that creates only rough black holes where eyes and a mouth should be. She resides in the Obsidian Palace, a mysterious castle that moves across the Shadowfell randomly.
+
+Cultural Pantheons:
+
+ Pantheon of the Reznor Dominion
+
+ The Five Primaries:
+
+- Torog, the Lord of Decay
+- Erathis, for civilization and culture
+- Ioun, for Knowlegde and Wisdom
+- Selvetarm, the Dark Elven War God for conquest and expansion
+- Eilistraee, the Dark Elven God of Beauty, Leadership, and Matriarchs
+
+ Forbidden Gods:
+
+- Lolth, forbidden knowledge, never worshipped in plain day
+- Demon worship
+
+ Pantheon of the Kingdom of Groz
+
+ The Delvers:
+
+- Torog, the Lord of Decay
+- Erathis, for civilization and culture
+- Ioun, for Knowlegde and Wisdom
+- Selvetarm, the Dark Elven War God for conquest and expansion
+- Eilistraee, the Dark Elven God of Beauty, Leadership, and Matriarchs
+
+ Forbidden Gods:
+
+- Lolth, forbidden knowledge, never worshipped in plain day
+
+ Pantheon of the Kingdom of Uthor
+
+ The Elven Highlords:
+
+ Pantheon of the Orc Tribes: The Warlords
+
+Pantheon of the Goblinoids: The Nilbog

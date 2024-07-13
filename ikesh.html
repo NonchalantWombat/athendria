@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ikesh</title>
+	<style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+		body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+			background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+			background-repeat: repeat; /* This will tile your image across the background */
+			background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+			background-size: 100% auto; /* This will ensure the image covers the entire background */
+		}
+        img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px; /* Smooth, curved edges */
+        }
+        #locationList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+        .custom-bullet-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .custom-bullet-list li {
+            position: relative; /* Needed for absolute positioning */
+            padding-left: 40px; /* Space for the bullet */
+        }
+        .custom-bullet-list li::before {
+            content: ''; /* Required for a pseudo-element */
+            position: absolute; /* Position relative to the li */
+            left: 0; /* Align to the left */
+            top: 0; /* Align to the top of the li */
+            background: url('Ikesh_Outline.svg') no-repeat left center; /* Your SVG */
+            background-size: 30px 30px; /* Adjust as needed */
+            width: 30px; /* Width of the bullet */
+            height: 30px; /* Height of the bullet */
+        }
+        /* Reset styles for nested UL */
+        .custom-bullet-list ul {
+            list-style-type: disc; /* Resets to default bullet points */
+            margin-left: 20px; /* Indentation for nested list */
+        /* Any other default styles you want to reset */
+        }
+        .custom-bullet-list li ul li::before {
+            content: none; /* Removes custom bullet icon for nested list items */
+            background-size: 0px 0px; /* Adjust as needed */
+            width: 0px; /* Width of the bullet */
+            height: 0px; /* Height of the bullet */
+        }
+        svg path {
+            transition: fill 0.3s; /* Smooth transition for hover effect */
+        }
+
+        svg path:hover {
+            fill: red; /* Change color on hover */
+        }
+        #info-box {
+            position: absolute;
+            border: 1px solid #ddd;
+            background: #eee;
+            padding: 10px;
+            display: none; /* Initially hidden */
+            z-index: 1000; /* High z-index to ensure visibility */
+        }
+        .image-container {
+            position: relative;
+            display: inline-block; /* Or as per your layout needs */
+        }
+
+        .image-container img {
+            display: block; /* Removes bottom spacing */
+            width: 100%; /* Adjust as needed */
+            height: auto; /* Adjust as needed */
+        }
+
+        .image-container svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; /* Match the image size */
+            height: 100%; /* Match the image size */
+        }
+    </style>
+
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('locationList');
+  // Use 'children' to get only direct child li elements
+  var itemsArr = Array.from(list.children);
+
+  itemsArr.sort(function(a, b) {
+    var textA = a.textContent.trim(); // Using textContent to get only text, not inner HTML
+    var textB = b.textContent.trim(); // .trim() to remove any leading/trailing whitespace
+    return textA.localeCompare(textB); // Using localeCompare for better string comparison
+  });
+
+  for (var i = 0; i < itemsArr.length; i++) {
+    list.appendChild(itemsArr[i]); // Re-append each item in sorted order
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>The Continent of Ikesh (The South)</strong></h1>
+
+    <div id="info-box"></div> <!-- Info box for displaying text -->
+
+    <div class="image-container">
+        <!-- Your static image -->
+        <img src="https://i.postimg.cc/GhjVY5Rd/Ikesh-No-Text.jpg" alt="Background Image" width="1200" height="600">
+
+        <!-- Your interactive SVG -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1800"
+   height="900"
+   viewBox="0 0 1800 900"
+   sodipodi:docname="Ikesh2 No Text.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.69421681"
+     inkscape:cx="900.2951"
+     inkscape:cy="570.42698"
+     inkscape:window-width="1718"
+     inkscape:window-height="1360"
+     inkscape:window-x="1713"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 109.9196,275.80431 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Idix"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Idix" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 801.15262,480.31131 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="Kellanora"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Kellanora" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1150.6062,679.85773 29.0733,0.0238 0.2898,-15.4131 -4.2372,-10.68188 -4.5387,9.69103 -5.7291,-18.34702 -5.6822,18.19615 -4.926,-10.08512 -4.5397,10.75112 z"
+       id="Bhulgraz"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Bhulgraz" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1217.1341,331.45985 29.0733,0.0238 0.2898,-15.4131 -4.2372,-10.68188 -4.5387,9.69103 -5.7291,-18.34702 -5.6822,18.19615 -4.926,-10.08512 -4.5397,10.75112 z"
+       id="Slateway"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Slateway" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1336.5612,381.23704 29.0733,0.0238 0.2898,-15.4131 -4.2372,-10.68188 -4.5387,9.69103 -5.7291,-18.34702 -5.6822,18.19615 -4.926,-10.08512 -4.5397,10.75112 z"
+       id="Lysanor"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Lysanor" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1308.8848,449.29274 29.0733,0.0238 0.2898,-15.4131 -4.2372,-10.68188 -4.5387,9.69103 -5.7291,-18.34702 -5.6822,18.19615 -4.926,-10.08512 -4.5397,10.75112 z"
+       id="Calcimony"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Calcimony" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 655.07783,504.84547 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="Shelthalas"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Shelthalas" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 431.01469,445.55269 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="Y-vatalos"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Y-vatalos" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 154.38622,480.85917 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="New-Uryopolis"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="New-Uryopolis" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 280.91,157.3472 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="Chi"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Chi" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 860.35687,314.44128 29.07335,0.0238 0.28977,-15.4131 -4.23721,-10.68188 -4.53868,9.69103 -5.72907,-18.34702 -5.68218,18.19615 -4.92605,-10.08512 -4.53969,10.75112 z"
+       id="Drakkengrad"
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:label="Drakkengrad" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 727.76913,258.0618 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Graymoore"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Graymoore" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 802.84074,595.75455 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Bredensted"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Bredensted" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 746.66567,453.2877 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Hazepool"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Hazepool" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 660.98132,412.90839 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Nyumbani"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Nyumbani" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 613.24922,369.74129 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Murkwater"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Murkwater" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 521.95214,375.85269 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Drollport"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 669.77708,323.36197 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Xruul"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 648.21209,255.30627 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Iragorn"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Iragorn" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 470.57283,268.32484 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Ferncoat"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Ferncoat" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 670.81421,201.26914 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Oakheart"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Oakheart" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 585.82747,178.08611 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Moonbright"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Moonbright" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 686.00785,603.97205 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Pellwyn"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Pellwyn" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 478.29432,644.90839 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Nuxvar"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Nuxvar" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 216.28636,281.39911 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Cern"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Cern" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100.12565,401.19675 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.369158,10.51327 z"
+       id="Alniri"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Alniri" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 912.70281,513.26914 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Charity"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Charity" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1036.2864,260.39911 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Laudron"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Laudron" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1013.175,165.45481 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Seabend"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Seabend" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1099.2015,351.232 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Thrope"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Thorpe" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1079.1564,581.75985 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Oxdeen"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Oxdeen" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1225.175,572.79699 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Faircrest"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Faircrest" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1505.2307,452.36197 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Warfeld"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Warfeld" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1469.3421,564.66701 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Madroon"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Madroon" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1573.0007,515.19675 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Boiling-Reef"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Boiling-Reef" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1628.2864,253.39911 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Roaring-Keep"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Roaring-Keep" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1111.3421,492.72272 17.9173,-0.0475 0.338,-13.84326 -9.2725,-10.6084 -9.3692,10.51327 z"
+       id="Falnar"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Falnar" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 538.13782,498.40707 17.9173,-0.0475 0.33806,-13.84326 -9.27256,-10.6084 -9.36916,10.51327 z"
+       id="Iffluna"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="Iffluna" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 800.14399,405.06558 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Arkalon"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Arkalon" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 722.26413,349.61223 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Leafside"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Leafside" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 969.09967,367.37616 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Roxton"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Roxton" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 531.46838,306.32576 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Alder-Conclave"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Alder-Conclave" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 695.46838,133.77934 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Carmina"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Carmina" />
+    <path
+       style="stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 943.97766,302.45574 25.40296,-0.0476 0.33807,-16.84025 -7.38908,-13.17726 -5.98852,10.08512 -5.74707,-10.03755 -7.1476,13.12969 z"
+       id="Hillfar"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Hillfar" />
+  </g>
+</svg>
+
+
+</div>
+
+<script>
+
+const sectionMap = {
+    'Arkalon': 'section-Arkalon',
+    'Roxton': 'section-Roxton',
+    'Drakkengrad': 'section-Drakkengrad',
+    'Leafside': 'section-Leafside',
+    'Graymoore': 'section-Graymoore',
+    'Hillfar': 'section-Hillfar',
+    'Slateway': 'section-Slateway',
+    'Lysanor': 'section-Lysanor',
+    'Shelthalas': 'section-Shelthalas',
+    'Kellanora': 'section-Kellanora',
+    'Drollport': 'section-Drollport',
+    'Nyumbani': 'section-Nyumbani',
+    'New-Uryopolis': 'section-New-Uryopolis',
+    'Gaelgaroth': 'section-Gaelgaroth',
+    'Alder-Conclave': 'section-Alder-Conclave',
+    'Burstpot-Valley': 'section-Burstpot',
+    'The Mist Wilds': 'section-Mist-Wilds',
+    'The Rust Barrens': 'section-Rust-Barrens',
+    'The Soidal Plains': 'section-Soidal-Plains',
+    'The Furled Isles': 'section-Furled-Isles',
+    'The Darkspires': 'section-Darkspires',
+    '(Underdark) The Mycellium Wilds': 'section-Mycellium-Wilds',
+    'Blistered-Hills': 'section-Blistered-Hills',
+    'The Shaded Haven': 'section-Shaded-Haven',
+    'Boiling-Reef': 'section-Boiling-Reef',
+    'Stonefields': 'section-Stonefields',
+    'Bhulgraz': 'section-Bhulgraz',
+    'Roaring-Keep': 'section-Roaring-Keep',
+    'The Fissure': 'section-Fissure',
+    'The Twilight Archipelligo': 'section-Twilight-Archipelligo',
+    'Stjarnaheim': 'section-Stjarnaheim',
+    'Desolate Rocklands': 'section-Desolate-Rocklands',
+    'The Olmoth Woods': 'section-Olmoth-Woods',
+    'Crystal Growths (The Darkness)': 'section-Crystal-Growths',
+    'Iragorn': 'section-Iragorn',
+    'The Astral Arcaneum': 'section-Astral-Arcaneum',
+    'Idix': 'section-Idix',
+    'Kellanora': 'section-Kellanora',
+    'Bhulgraz': 'section-Bhulgraz',
+    'Slateway': 'section-Slateway',
+    'Lysanor': 'section-Lysanor',
+    'Calcimony': 'section-Calcimony',
+    'Shelthalas': 'section-Shelthalas',
+    'Y-vatalos': 'section-Y-vatalos',
+    'Chi': 'section-Chi',
+    'Drakkengrad': 'section-Drakkengrad',
+    'Graymoore': 'section-Graymoore',
+    'Bredensted': 'section-Bredensted',
+    'Hazepool': 'section-Hazepool',
+    'Nyumbani': 'section-Nyumbani',
+    'Murkwater': 'section-Murkwater',
+    'Drollport': 'section-Drollport',
+    'Xruul': 'section-Xruul',
+    'Iragorn': 'section-Iragorn',
+    'Ferncoat': 'section-Ferncoat',
+    'Oakheart': 'section-Oakheart',
+    'Moonbright': 'section-Moonbright',
+    'Pellwyn': 'section-Pellwyn',
+    'Nuxvar': 'section-Nuxvar',
+    'Cern': 'section-Cern',
+    'Alniri': 'section-Alniri',
+    'Charity': 'section-Charity',
+    'Laudron': 'section-Laudron',
+    'Seabend': 'section-Seabend',
+    'Thrope': 'section-Thrope',
+    'Oxdeen': 'section-Oxdeen',
+    'Faircrest': 'section-Faircrest',
+    'Warfeld': 'section-Warfeld',
+    'Madroon': 'section-Madroon',
+    'Boiling-Reef': 'section-Boiling-Reef',
+    'Roaring-Keep': 'section-Roaring-Keep',
+    'Falnar': 'section-Falnar',
+    'Iffluna': 'section-Iffluna',
+    'Carmina': 'section-Carmina',
+};
+
+    // Information to display on hover
+
+const infoText = {
+    'Arkalon': 'Arkalon',
+    'Roxton': 'Roxton',
+    'Drakkengrad': 'Drakkengrad',
+    'Leafside': 'Leafside',
+    'Graymoore': 'Graymoore',
+    'Hillfar': 'Hillfar',
+    'Slateway': 'Slateway',
+    'Lysanor': 'Lysanor',
+    'Shelthalas': 'Shelthalas',
+    'Kellanora': 'Kellanora',
+    'Drollport': 'Drollport',
+    'Nyumbani': 'Nyumbani',
+    'New-Uryopolis': 'New Uryopolis',
+    'Gaelgaroth': '(Underdark) Gaelgaroth',
+    'Alder-Conclave': 'The Great Alder (Atrexalon\'s Rest)',
+    'Burstpot-Valley': 'Burstpot Valley',
+    'The Mist Wilds': 'The Mist Wilds',
+    'The Rust Barrens': 'The Rust Barrens',
+    'The Soidal Plains': 'The Soidal Plains',
+    'The Furled Isles': 'The Furled Isles',
+    'The Darkspires': 'The Darkspires',
+    '(Underdark) The Mycellium Wilds': '(Underdark) The Mycellium Wilds',
+    'Blistered-Hills': 'The Blistered Hills',
+    'The Shaded Haven': 'The Shaded Haven',
+    'Boiling-Reef': 'The Boiling Reef',
+    'The Stonefields': 'The Stonefields',
+    'Bhulgraz': 'Bhulgraz',
+    'Roaring-Keep': 'The Roaring Keep',
+    'The Fissure': 'The Fissure',
+    'The Twilight Archipelligo': 'The Twilight Archipelligo',
+    'Stjarnaheim': 'Stjarnaheim',
+    'Desolate Rocklands': 'Desolate Rocklands',
+    'The Olmoth Woods': 'The Olmoth Woods',
+    'Crystal Growths (The Darkness)': 'Crystal Growths (The Darkness)',
+    'Iragorn': 'Iragorn',
+    'The Astral Arcaneum': 'The Astral Arcaneum',
+    'Idix': 'Idix',
+    'Kellanora': 'Kellanora',
+    'Bhulgraz': 'Bhulgraz',
+    'Slateway': 'Slateway',
+    'Lysanor': 'Lysanor',
+    'Calcimony': 'Calcimony',
+    'Shelthalas': 'Shelthalas',
+    'Y-vatalos': 'Y-vatalos',
+    'Chi': 'Chi',
+    'Drakkengrad': 'Drakkengrad',
+    'Graymoore': 'Graymoore',
+    'Bredensted': 'Bredensted',
+    'Hazepool': 'Hazepool',
+    'Nyumbani': 'Nyumbani',
+    'Murkwater': 'Murkwater',
+    'Drollport': 'Drollport',
+    'Xruul': 'Xruul',
+    'Iragorn': 'Iragorn',
+    'Ferncoat': 'Ferncoat',
+    'Oakheart': 'Oakheart',
+    'Moonbright': 'Moonbright',
+    'Pellwyn': 'Pellwyn',
+    'Nuxvar': 'Nuxvar',
+    'Cern': 'Cern',
+    'Alniri': 'Alniri',
+    'Charity': 'Charity',
+    'Laudron': 'Laudron',
+    'Seabend': 'Seabend',
+    'Thrope': 'Thrope',
+    'Oxdeen': 'Oxdeen',
+    'Faircrest': 'Faircrest',
+    'Warfeld': 'Warfeld',
+    'Madroon': 'Madroon',
+    'Boiling-Reef': 'Boiling Reef',
+    'Roaring-Keep': 'Roaring Keep',
+    'Falnar': 'Falnar',
+    'Iffluna': 'Iffluna',
+    'Carmina': 'Carmina',
+};
+
+    document.querySelectorAll('svg path').forEach(function(path) {
+        path.addEventListener('mouseenter', function(event) {
+            const infoBox = document.getElementById('info-box');
+            infoBox.style.display = 'block';
+            infoBox.textContent = infoText[this.id];
+            infoBox.style.left = (event.clientX + 10) + 'px';
+            infoBox.style.top = (event.clientY + 10) + 'px';
+        });
+
+        path.addEventListener('mouseleave', function() {
+            document.getElementById('info-box').style.display = 'none';
+        });
+
+        path.addEventListener('click', function() {
+            const targetSectionId = sectionMap[this.id];
+            const targetSection = document.getElementById(targetSectionId);
+
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                console.error('No section found for ID:', targetSectionId);
+            }
+        });
+    });
+</script>
+
+<p> Located in the southern hemisphere of Athendria, Ikesh contains multitudes of peoples and beasts, magic and mystery, history and conflict. Its lush forests, barren plains, jagged mountains and rolling hills are filled with civilizations, some new, some old, and several long dead. In the year 1127 P.C., there have been several decades of relative peace and prosperity. After the events of the repelled Aboleth Invasion from Yoria in 1094, the waves of psychic energy which washed across Athendria in the death throes of the Blood Queen have created lingered effects. Occasionally, children are born with the innate power of telepathy, or others manifest slight telekinesis. The strangeness of these abnormalities has rapidly faded into normalcy, and most view these developments as quirky, but of little significance.</p>
+
+<p>In Ikesh, there are many opposing forces, balanced well (for now) by power and mutually assured destruction. The largest and oldest of the powers, the drow empire known as the Reznor Dominion, resides in the gloomy, rainy southwest, and dominates major connecting trade route paths through the Darkspire Mountains. Led by the ageless Shadequeen Lyvrenna Daevyth, the Reznor have been quietly gaterhing their strength after a violent history of expansion and conflict with their neighbors.</p>
+
+<p>One such neighbor is the island-continent nation of Autria. On it, the warforged denizens and their friends prefer to focus on technological innovation and exploitation of rare resources in the expansive Rust Barrens. Their history of armed conflict with the Reznor over such resources culminated in the Spark Wars and rapid development of airship technology, some 50 or so years ago. The war resulted in a stalemate, and the two nations have been in an uneasy truce ever since, avoiding confrontation.</p>
+
+<h1><strong>Notable Locales of Ikesh:</strong></h1>
+
+<button onclick="sortList()">Sort Alphabetically</button>
+
+<ul class="custom-bullet-list" id="locationList">
+    <li><h2 id="section-Arkalon">Arkalon</h2></li>
+    <li><h2 id="section-Roxton">Roxton</h2></li>
+    <li><h2 id="section-Drakkengrad">Drakkengrad<br><img src='https://i.postimg.cc/c46Kqq5B/Drakkengrad.png' alt='Drakkengrad' style='width:600px;'></h2></li>
+    <li><h2 id="section-Leafside">Leafside</h2></li>
+    <li><h2 id="section-Graymoore">Graymoore</h2></li>
+    <li><h2 id="section-Hillfar">Hillfar</h2></li>
+    <li><h2 id="section-Slateway">Slateway</h2></li>
+    <li><h2 id="section-Lysanor">Lysanor</h2></li>
+    <li><h2 id="section-Shelthalas">Shelthalas<br><img src='https://i.postimg.cc/1XXdS0TX/Shelthalas.png' alt='Shelthalas' style='width:600px;'></h2>
+    <p> The capitol city of the Reznor Dominon, and the ancestral surface home of the drow. This dark and brooding city contains many tall, dark towers, testaments to the power of the drow mages who reside within. The matriarchal society operates across most of Ikesh. Present within Shelthalas is the Shade Palace, Airship Fields, a massive stone statue representing the first Deepqueen to lead the Reznor out of the caves beneath the mountains, who was known as the Bullwark, and much more. The drow worship Selvetarm, the goddess of drow warriors, and shun worship of Lolth.</p>
+    <p> Important Entities:</p>
+    <ul>
+        <li> The Drachen Warriors: The elite guards of the Reznor, these specially trained drow women are masters of swordplay and a variety of martial magic. They protect Shelthalas and other major cities.</li>
+        <li> The Shadequeen: The current ruler of the Reznor Dominion, and has been for centuries. She has great knowledge, and endorses the current worship of certain dieties. </li>
+        <li> Kula Kenviir: Blacksmith, strongarmed, capable, has adamantite, owner of Pounder's</li>
+        <li> Szindar Dinaen: a shopkeep, sells assorted goods, works for his wife at the Rotten Chain</li>
+        <li> Rayn Dinaen: Owner of the Rotten Chain</li>
+        <li> Llostra Din: a tinkerer, owner of Wheels and Gears, expert in warforged physiology and tinkering</li>
+    </ul>
+    </li>
+    <li><h2 id="section-Kellanora">Kellanora<br><img src='https://i.postimg.cc/DysSfQnS/Kellanora.png' alt='Kellanora' style='width:600px;'></h2></li>
+    <li><h2 id="section-Drollport">Drollport</h2></li>
+    <li><h2 id="section-Nyumbani">Nyumbani<br><img src='https://i.postimg.cc/PqGnM774/Nyumbani.png' alt='Nyumbani' style='width:600px;'></h2></li>
+    <li><h2 id="section-New-Uryopolis">New Uryopolis</h2></li>
+    <li><h2 id="section-Gaelgaroth">(Underdark) Gaelgaroth<br><img src='https://i.postimg.cc/4NK3L6m8/Gaelgaroth.png' alt='Gaelgaroth' style='width:600px;'></h2></li>
+    <li><h2 id="section-Alder-Conclave">The Great Alder (Atrexalon's Rest)<br><img src='https://i.postimg.cc/Gt4bfRhB/Great-Alder.png' alt='The Great Alder' style='width:600px;'></h2></li>
+    <li><h2 id="section-Burstpot">Burstpot Valley<br><img src='https://i.postimg.cc/44Qv4TPC/Burstpot-Valley.png' alt='Burstpot Valley' style='width:600px;'></h2></li>
+    <li><h2 id="section-Mist-Wilds">The Mist Wilds<br><img src='https://i.postimg.cc/hG4v0Hxm/Mist-Wilds.png' alt='The Mist Wilds' style='width:600px;'></h2></li>
+    <li><h2 id="section-Rust-Barrens">The Rust Barrens<br><img src='https://i.postimg.cc/Kzvq7rmf/Rust-Barrens.png' alt='The Rust Barrens' style='width:600px;'></h2></li>
+    <li><h2 id="section-Soidal-Plains">The Soidal Plains<br><img src='https://i.postimg.cc/PqHFJncB/Soidal-Plains.png' alt='The Soidal Plains' style='width:600px;'></h2></li>
+    <li><h2 id="section-Furled-Isles">The Furled Isles<br><img src='https://i.postimg.cc/PxrXmZgQ/Furled-Isles.png' alt='The Furled Isles' style='width:600px;'></h2></li>
+    <li><h2 id="section-Darkspires">The Darkspires<br><img src='https://i.postimg.cc/6qby7zTZ/Darkspires.png' alt='The Darkspires' style='width:600px;'></h2></li>
+    <li><h2 id="section-Mycellium-Wilds">(Underdark) The Mycellium Wilds<br><img src='https://i.postimg.cc/fyHhjR4t/Mycellium-Wilds.png' alt='The Mycellium Wilds' style='width:600px;'></h2></li>
+    <li><h2 id="section-Blistered-Hills">The Blistered Hills<br><img src='https://i.postimg.cc/q7WwKXh9/Blistered-Hills.png' alt='The Blistered Hills' style='width:600px;'></h2></li>
+	<li><h2 id="section-Shaded-Haven">The Shaded Haven<br><img src='https://i.postimg.cc/VL3hyCFs/Shaded-Haven.png' alt='The Shaded Haven' style='width:600px;'></h2></li>
+	<li><h2 id="section-Boiling-Reef">The Boiling Reef<br><img src='https://i.postimg.cc/vHGz5mTH/Boiling-Reef.png' alt='The Boiling Reef' style='width:600px;'></h2></li>
+	<li><h2 id="section-Stonefields">The Stonefields<br><img src='https://i.postimg.cc/VkqD3H64/Stonefields.png' alt='The Stonefields' style='width:600px;'></h2></li>
+	<li><h2 id="section-Bhulgraz">Bhulgraz<br><img src='https://i.postimg.cc/SRdcgWRQ/Bulghraz.png' alt='Bhulgraz' style='width:600px;'></h2></li>
+	<li><h2 id="section-Roaring-Keep">The Roaring Keep<br><img src='https://i.postimg.cc/mr3JygCL/Roaring-Keep.png' alt='The Roaring Keep' style='width:600px;'></h2></li>
+	<li><h2 id="section-Fissure">The Fissure<br><img src='https://i.postimg.cc/0N9PsDy1/Fissure.png' alt='The Fissure' style='width:600px;'></h2></li>
+	<li><h2 id="section-Twilight-Archipelligo">The Twilight Archipelligo<br><img src='https://i.postimg.cc/t70NchGL/Twilight-Archipelligo.png' alt='The Twilight Archipelligo' style='width:600px;'></h2></li>
+	<li><h2 id="section-Stjarnaheim">Stjarnaheim<br><img src='https://i.postimg.cc/15NWKz1k/Stjarnaheim.png' alt='Stjarnaheim' style='width:600px;'></h2>
+    <p> Home to the Cloud Giants, a floating city far beyond the reachs of any major continent. The denizens considers themselves aloof and beyond the reach of the rest of the mainland. </p>
+    </li>
+	<li><h2 id="section-Desolate-Rocklands">Desolate Rocklands<br><img src='https://i.postimg.cc/vBz1yGs3/Desolate-Rocklands.png' alt='Desolate Rocklands' style='width:600px;'></h2></li>
+	<li><h2 id="section-Olmoth-Woods">The Olmoth Woods</h2></li>
+	<li><h2 id="section-Crystal-Growths">Crystal Growths (The Darkness)</h2></li>
+	<li><h2 id="section-Iragorn">Iragorn<br><img src='https://i.postimg.cc/P5sdSBGx/Iragorn.webp' alt='Iragorn' style='width:600px;'></h2></li>
+	<li><h2 id="section-Astral-Arcaneum">The Astral Arcaneum<br><img src='https://i.postimg.cc/Vv8FGfFg/Astral-Arcaneum.png' alt='The Astral Arcaneum' style='width:600px;'></h2></li>
+</ul>
+
+</body>
+</html>

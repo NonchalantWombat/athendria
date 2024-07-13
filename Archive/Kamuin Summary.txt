@@ -1,0 +1,659 @@
+The Continent of Kamuin (The East):
+
+Factions and Organizations:
+
+The Nightshade:
+A broad and effective network of organized criminals and thieves. Comprised on distinct units, operating out of most major cities and controlling the majority of black market/underground trade on the continent of Kamuin. Silvana, Daedrin, and Claudius Maximillian are a major crime family, known as the Solanaceae.
+
+The Sparkhammers:
+A professional Merchant/Artisan Guild, composed of only the most skilled and renowned practitioners of craft and smithing. Members are inducted into the ranks once they prove their prowess to a current senior member at the temple of the Allhammer, Moradin in Lutetia. Earning the rank of Hammerspark proves skill and brings a lot of business and interest to its members.
+
+The Breathless:
+Assassins’ Guild, localized in the southwest, in an unknown location in the heart of the desert. Their symbol is a gaping mouth. Known for their track record, reliability, kingly price, and secrecy. The organization has existed for hundreds of years, and is a truly neutral party, collaborating only to the highest bidder. Worships Torog, god of Death, and enacts his will through their work. Ranks include Breathless, Expirator, Whisperer, and Arch Suffocant.
+
+The Crimson Cloaks:
+The imperial guard of Birunduul, found in every city and village. In Lutetia, only the bravest and most skillful are allowed to join. They recruit the best from all the provinces to join the Cloaks.
+
+The Distillers:
+Secret Society that fronts as a brewer’s guild. High ranking members are inducted into the inner ranks. Sole purpose is the discovery of new knowledge and ancient magic for the glory of Erathis. Grand Brewmaster of the Verdance is Kussek Runebrew. He collaborated with the team to defeat a Chain Devil in Oakdale, and he invited them to visit the temple of Erathis in Lutetia.
+
+The Velki Enclave:
+An ancient magical society, long ago wiped out by the red dragon Hemdorak after he stole the legendary stone, the Lapis Arca. The ruins of this organization can be found scattered throughout Kamuin and beyond, with the majority of the ruins located deep in the Haunted Wastes. The Velkian Dissidents were a shadowy splinter organization of the now defunct Velki Enclave. Regarded as heretics, they left the organization and formed their own, including a variety of questionable outposts across the land. Their creed stands as: "Knowledge begets Power. Might forces Understanding. We dissidents reject the archaic foundations of the Enclave, and forge a new path in pursuit of these goals."
+
+The Order of the Discerning Eye:
+A group of like-minded wizards and magically gifted individuals, found almost exclusively within the Magicisan's Respite in Lutetia. They gaurd their secrets closely, and work in close proximity to many of the wealthy elites. They're rumored to have shady dealings with the Nightwalkers and other cities.
+
+The Order of the Grasping Fist
+
+10 Tenets of the Way of the Grasping Fist
+
+1) Wealth leads to success, success leads to happiness, happiness leads to enlightment.
+2) Rewards are nice, nice people give rewards, earn rewards by helping nice people.
+3) When other people have mor emoney, other people give YOU more money.
+4) Realize your desires by reaching out and grasping them. Do not allow your desires to grasp you.
+5) While recognition and notice are admirable goals, they often make other goals difficult. Apply and seek recognition and notice judiciously.
+6) Before you have wealth, one exists in a dark place. Simiilarily, before you have victory, one must coexist with dark places.
+7) The gleam of gold and glory is often grasped by deeds done in darkness with deiscretion.
+8) When you grasp your dreams, make of your hand a fist, and hold your treasures tighlty. They cannot always be replaced.
+9) The face is a flexible tool, built for deception and honesty both. The fist is an unyielding one, built for battle. Grasp the value of both.
+10) Comrades cannot be replaced. Grasp these treasures the closest, and bring the fist to any who would dare take them from you.
+
+Goals and Characteristics of the Order of the Grasping Fist
+
+- Generate an order of monks that seek fame and fortune. Mostly fortune.
+- Realize the way of the grasping fist. Achieve greatness and wealth, they lead to enlightenment.
+- Encourage the growth of wealth in all those around them.
+- Respect those who aid the order and value friendships closely.
+- Religiously, worship the guidance of Janos, praise the support of Selune (for her temple) but otherwise choose as you please.
+- Advanced members will serve as mercenaries/guards/agents of wealthy or wealth seeking individuals to bring monetary gain to themselves and the monkastery.
+- Younger members will seek out new followers and explain the ideology of the order.
+- New members will pay a small entrance fee and then spend time learning the tenets and training.
+- Master members will train other members and arrange for the expansion of monkastery property and acquisition of contracts.
+- The monkastery will work closely with the priesthood of Selune, their original and greatest benefactors.
+- Lycanthropy will not be "encouraged" but will be accepted.
+- Expansion into other mercantile endeavors will be smiled upon and encouraged.
+
+# Locations in Kamuin:
+
+Frostford
+A bustling trade city on the edge of the Frostfall River as it turns seaward towards Lutetia. Ships traveling though the empire must offload goods here to travel further inland towards Swarthmore. It is a prosperous town with many artisans and well-equipped traders. Most of the buildings are built on the foundations of a crumbling ancient city, from a civilization older than records go back. Much of the infrastructure was reused (plumbing, aqueducts, sewers, etc). Current troubles include missing shipments, belabored traders and caravans, an overabundance of homeless dragonborn seeking asylum until the situation on Thaumdural is resolved, and a troublesome criminal organization rumored to live in the ruins underground creating mischief.
+
+Important Entities:
+ Viscount Vicmorn Glorygem:
+An appointed local official by the Emperor himself, Glorygem rules from his keep upon the hillside in Frostford. He oversees all trade in the region. He is a wealthy dwarven trader originating from Grozmirlun, who made his fortune trading precious metals collected from secret mines at the base of the mountains. Wealth and clever management have led to safety, food abundance, and general prosperity under his oversight.
+
+Chief Sam Barroway: 
+An unassuming human male with tied back long hair, Sam is the local Chief of Law Enforcement, and leader of the Frost Fighters. He helped the Capable Crew investigate a slew of serial murders in Frostford.
+
+ Benjamin Meadmaker:
+Shifty widowed tavern owner at The Soggy Grindylow. Known for his cheap prices and cheaper mead.
+
+ Drud Willowson:
+Artisan District manager, and a knowledgeable resource about the region and its people
+
+ Eldra McHammer: 
+Blacksmith extraordinaire, specializing in simple tools and weapons. She is also a member of the Hammersparks, a famous smithing guild. Her brothers, Ogg and Gunden, own a stripmine under the cliffside.
+
+ Sheila Shlongmeister: 
+Purveyor of specialty custom weapons and magical items, known for silvering non-magical items and taking custom requests
+
+ The Frost Fighters: 
+Local law enforcement branch of the Crimson Cloaks, known for their ineffectiveness
+    
+Oakdale 
+A small farming village located deep in lush forests in the Southeast. It is perpetually pestered by goblins, roadside bandits and missing farm animals. This sleepy farming and herding village makes a living off and trade with Frostford. Recently, wailing and cries in the night have keep the locals awake. It was proven to be the chain devil-possessed wife of Rock Peterson, Rue. While this was resolved by the capable crew, further difficulties remain as the locals deal with missing livestock and mysterious occurrences in the woods.
+
+ Important Entities:
+
+ Mayor Cormac: 
+An aging, white-bearded dwarvish farmer who is generally unwilling to be the leader to the locals.
+
+ Ol’ Miss Hazelford:
+Elderly halfling widow on the outskirts of town whose flock of chickens goes unrivaled in the region. She frequently deals with chicken theft by the local goblins.
+
+ Harold Hazelford:
+A young halfing man, and nephew of Miss Hazelford. He is fiercely protective of his aunt and their cottage, and spends most of his time tending his sheep in the nearby pastures.
+
+ Fenola Smallhand
+A middle aged halfling woman who tends to the villager's needs by running the Flirting Friar Inn. She took over the place when Rock and Rue Peterson left town to join the Cult of Racknar.
+
+
+
+ Lubdin
+A few days journey southwest of Oakdale, this small village bordering the massive swamp of Cuvel’s Slough is a testament to the stubbornness (and xenophobia) of its inhabitants. The Lubdinites have lived in these woods for generations, eking out a meager existence far removed from any of the political or religious turmoil of the rest of the continent. An Elder Ooblex, one of the horrors that Birru had sealed away, had appeared in the Slough and had created an artificial village filled with fascimilies of the many creatures and people it had absorbed over the millenia. The Capable Crew slew the monster and returned the local region to peace. The Slough is still a mysterious place, and not many who enter it return.
+ Important Entities:
+ Firden and Ren Hannod:
+The owners of the Ale King Tavern, a gossiping and judgmental pair. They embody the intolerance of the town.
+ Ruby:
+The mother of Spinel. This kindly and hard-working human woman living on the outskirts of town has made her living off the land for decades. She is tight-lipped about Spinel's father, and is fond of wandering the edge of the swamp in her spare time.
+ Crayg:
+The recently arrival to town, Crayg is a Dao from the Plane of Earth. He is Ruby's long-lost love and Spinel's father, and he and Ruby have been spending plenty of time alone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Avaricity: 
+A dark and shadowed tower breaks the endless expanse of trees, looming over the old and modest temple nearby. It stands harsh against the skyline, and hints at some ancient, hidden, and dark purpose. Gentle birdsong and a warm breeze flow over the recently established trading town that sits around its base, as airships float gently in the sky. This odd settlement is built around an ancient temple to Selune, as well as the strange dark tower that has been retrofitted to accommodate airships. It was founded jointly by Duke Janos and Lady Silvertail some years ago.
+
+ Important Entities:
+
+ Duke Janos Dragonslayer:
+A retired adventuror, known for his role in saving Lutetia from a terrible fate decades ago, Janos is the leader of the Order of the Grasping Fist, a mercenary trade organization. He is a shrewd businessman, and oversees all airship trade on Kamuin, having negotiated new trade agreements with Crystallia some years past. His partner, Parvanah McNelly, helps him grow the Order and its influence.
+
+ Sumia Silvertail: 
+The blind, elven High Priestess of Selune who has maintained the nearby temple for many years. She is a werelioness with silver fur when she chooses to transform. She has staked her post in this remote temple to Selune, once maintained by true werecreatures, but has since fallen into obscurity. 
+
+
+
+She promised to hand it over to Janos after the evil had been purged from the nearby tower, which was known to have residual necromantic energies and ties to Shar, Selune's evil sister. The successful purge by the Capable Crew completed her vigil, and she has since abandoned the small temple in favor of the open wilds.
+
+ Notable Members:
+
+ Kurt VonTaterheim: 
+An alcoholic halfling playwright from Frostford who joined the Order after Janos aided him in the removal of a ghost in his decrepit theater. His brother Pippin died in a freak accident there, and he felt compelled to seek his fortune elsewhere. He has accumulated substantial wealth and sobered up in recent years.
+
+ Rock and Rue Peterson
+A couple from Oakdale to the east, they found fortune and shelter with the Order.
+
+ The Broadtooth Family
+A family of dragonborn who fled Thaumdural  after its destruction by Hemdorak. They eventually  joined the Order and currently oversee business  in the Worldspine Mountains.
+
+ Derrick:
+A congenial werebear who joined the  Order as a teenager. While his skills  as a monk are negligible, his strength  and persuasive skills are undeniable.
+
+
+ Khenwood
+Comprised almost exclusively of dragonborn, the town of Khenwood consists of the Dragonborn who once fled the city of Thaumdural when Hemdorak the Red Dragon staked his claim upon it. It is a mining and logging town, living in harmony with the dense pine forests at the base of the Worldspine mountains.
+
+ Important Entities:
+
+ King Emry, the Wise
+The silver dragonborn leader of his people, who suffered erous lasting injuries at the hands of Hemdorak the Merciless. He led his people into the forests to found Khenwood years ago following the aftermath of the dragonborn flight from Thaumdural, and has since prospered.
+
+ Balgathar, the Strong
+A blue dragonborn draped in furs, this logger runs the local operations which supply strong fir trees to downstream cities.
+
+ Kogwyn the Wise:
+Aging female dragonborn and a potion/arcane shop owner. She is also an astrologist, with kooky mannerisms and uncanny powers of observation. She has been producing healing potions and aid for the refugees.
+
+ Captain Orlamorn:
+Captain of the Whitecrest, a small sailing vessel tasked with escorting the Crew to Thaumdural before it's fall. Now he plys his trade at the Docks in Frostford and provides transport to Swarthmore.
+
+
+
+ Ocnarf the Bubbly:
+A brass dragonborn barbarian, who wields a greataxe and demonstrated his prowess in the flight from Thaumdural. He admires the Capable Crew, and wishes to defend their homestead as a guard.
+
+ Ozeana Brazenscales:
+A silver dragonborn cleric of Bahamut who helped the Crew in the fight against Hemdorak. She was the defacto leader of the remaining dragonborn slaves on Thaumdural before its liberation, and now helps the Prince guide his people.
+
+
+ Swarthmore 
+Several days travel by river north of Frostford, this small hunting and farming village sits on the edge of the Crast Hills, at the base of the Worldspine Mountains. The local population is primarily human and half-orc, as wandering orcish tribes roam the hills and frequently clash with this outpost. Rugged, and lacking in most comforts, Swarthmore has stood stubbornly for generations as a testament to the hardiness of the northerner peoples. The denizens are untrusting of outsiders. They are led by Duke Arroway, and seek advice from mystic of Gruumsh. Local small natural gold deposits provide some of the more enterprising residents a source of income to trade for food with travelers. The village frequently fends off raids from Orc bands and wild beasts, and it is an important outpost at the corner of the empire for maintaining positive relations on the border.
+
+ Important Entities:
+ Duke Mord Arroway:
+The tall, gentle half-orc leader of Swarthmore. A rugged and no-nonsense leader who reports to the Emperor and monitors movements of the orc tribes in the north near Urk. He governs Swarthmore as a respected official, the last bastion of civilization before Thaumdural at the base of the Worldspine Mountains. He is known for his tremendous strength and tenacity in guiding his people through the harsh winters of the north.
+
+ The Mystic: 
+A hooded and robed elder who resides in the lodge at the top of the cliffside. They predict the weather, provide insight and guidance on daily work, and magically protect Swarthmore from invaders when necessary.
+
+
+
+ Ovir Hesh:
+An older human woman who runs the water-mill. She is an essential asset to her community by processing grain they farm and turning it into edible foodstuffs and tradable goods. She also dabbles in alchemy in her spare time. She sells some ingredients unique to the Crast Hills.
+
+ Tuko Derm: 
+A half-orc middle-aged man who operates a general store in the center of Swarthmore. He trades flour and gold for food and furs.
+
+ Erik:
+A human man, and father to Seamorc. He is  conflicted on the constant warring with the  Orcish tribes, and is known for his liking of  orcish women.
+
+ Seamorc: 
+A previous member of the Capable Crew,  this handsome, red-haired half-orc  returned to Swarthmore to help his  father Erik defend against the  increasingly frequent orc raids. He  cares for his gargantuan chicken  Chickmorc and grooms his luscious  red hair when he has time.
+
+ The Ruins of Thaumdural
+Located on the tallest peak of the Worldspire Mountain range, accessible only via the Frostfall river into the mountains and a treacherous journey up the mountainside, this ancient ruined city is built into the remains of a gigantic crater at the top of Mount Strohlcairn. It is theorized the crater was formed eons ago during a volcanic eruption, long before the dragonborn decided to settle in and make it their home. The temperature is warm and steamy, thanks to erous geothermal springs heated by underground lava flows. Years ago, the city's wealth stemmed from breeding and trading exotic flying mounts (griffons and hippogriffs) with the Empire and other city states, as well as from modest mining operations in the caves below. it was a prosperous city before disaster struck.
+
+A portal to the Elemental Plane of Fire opened decades ago, and an ancient red dragon known as Hemdorak tore his way through. He drove the dragonborn from their homeland, killing nearly half their bers in the process. The dragon was eventually defeated by the heroic Capable Crew, but the city was destroyed in the process. The mountain is now a desolate wasteland, covered in lavaflows and steam, with a burning active portal at the peak. This open portal is a target for the denizens of the Plane of Fire, as it opens relatively close to the City of Brass on the other plane, and could provide access to Athendria for entrepreneurial creatures from other planes. A host of devils have created a base atop the mountain, and are mining its depths for valuable gemstones and other resources...
+
+ Important Entities:
+
+ Demiurge, Herald of Zagum
+
+ Lutetia (<font color="3d096d"Imperial Capital </font): 
+This bustling metropolis forms the beating heart of the empire. A tremendously prosperous city, wealthy and poor alike from across the continent call it their home. Located along the Frostfall river on its way out towards the Vanjan Sea, almost all travel and trade across the western side of Kamuin travels by this city. The deterring presence of the Crimson Cloaks, as well as other powerful factions, wards off orc bands and wild animals. Lutetia has a highly prolific criminal underbelly, which is in constant conflict with the law. Religious worship of all gods and deities can be found here, with temples to each scattered across the city. The government of the empire is based out of this city, with leadership formed primarily by representatives from the wealthy trading families and the Emperor himself.
+
+ Notable Locales:
+
+ The Sewers
+Many homeless and questionable denizens lurk here. It is rumored to be a focal point for the Nightwalker Theive's Guild, and those who go looking for them tend to disappear.
+
+ Clearwater Academy
+This institute of higher learning is generally available only to nobles or those with the necessary talents. The academy's professors are generally more altruistic than many of the more talented magic users in the city, and less specialized.
+
+ The Silver Table
+A cheap and dingy inn near the western city gate, ran by a crotchety old man named Theo.
+
+ Fevagore Castle
+The seat of power in the Empire, and the previous home to the Emperor. All the important political families meet here as part of the Council of Eight and discuss matters of importance regarding governance.
+
+ The Saintly Sheep
+A famous brothel run by the infamous Madame Janeta. Among the "usual" offerings, it also provides excellent beds, natural hot spring baths, and exquisite food.
+
+ The Magician's Respite
+A secluded gated community comprised solely of wealthy and reclusive magic users, too snooty or paranoid to contribute to the knowledge of Clearwater Academy.
+
+ Temples to the Gods
+Across Lutetia are many temples, all dedicated to various dieties approved within the city. The larger the ber of worshippers, the larger the temple.
+
+ Squalortown
+Outside the city walls, the general wealth and prosperity gives way to a shantytown of the poor and misfortunate living on the fringes of the city.
+
+ Important Entities
+
+ Gowron the Eruditious:
+A slim orc with pale skin and unusual intelligence with a degree in orc studies from Clearwater Academy in Lutetia. Gowron was cast out of his tribe at an early age, since the clan warchief considered him an eventual threat, and was adopted by a friendly gnome wizard on the fringes of the forests outside the Balmere Plateau. He eventually moved to Lutetia and pursued a career in magicks to promote orcish welfare and reduce prejudice around his race. He dabbles as a wizard and inventor, currently attempting to utilize stray cats and their extra lives as a source of energy. He has recently devoted himself to his research and moved to private facilities outside Squalortown, as he recently acquired a grant from unknown sources to produce energy ingots.
+
+ Professor Pergolor:
+A goth firbolg wizard expert of the  Shadowfell, seeking aid from Nameless  to deliver his instrumentation to the  Shadowfell for research purposes.  He shared his knowledge about  communing rituals with Shar with  Nameless, and educated him about  the presence of Selune within the  Feywild.
+
+ Kussek Runebrew:
+A hurdy-gurdy wielding, trim elderly  dwarvish male who met the Capable  Crew early in their adventure at the  Flirting Friar. He told the party  to meet him at the temple to Erathis in Lutetia after  aiding them. He is also the High Brewmaster of the Distillers, an organization that fronts as a distillery to produce alcohol while secretly filtering knowledge to prevent powerful knowledge from landing in the hands of the public.
+
+ Matron Aneki Longtooth:
+An aging female Goliath and the Head Priestess at the Temple of Melora. She educated Spinel about Melora and facilitated her vision quest to become Melora's Champion.
+
+ Tusania Rubysnatcher:
+A shrewd, grey-haired gnomish woman with a braided ponytail who operates as a fence and maintains debts for Vith and Lyrin. Nameless and Janos assaulted her door when she was unwilling to open her shop at night, causing her to call for aid from Zehdra, which they then disintegrated.
+
+ Brunhilda, the Chaste
+A silver-scaled dragonborn paladin of Bahamut, this voluptuous holy warrior serves only to further the interests of her temple. However, she seems to be suppressing some strange emotions, and spends time gazing off into the sky, deep in thought.
+
+ Archimandrite Kantor:
+An intimidatingly muscular and lean tall human male, dressed in simple robes. He oversees ritual battle within the Temple of Kord, as well as the operation of the Temple and any pressing matters involving his diety. He is secretly impressed by Notrick.
+
+ Master Coldren:
+A dark-skinned female aasimar with lightning-hue blue eyes, muscular and with a clean-shaven head. She works in the smithy and aids in the production of Kordite. She initially dismissed Notrick, and instructed him to make something more intimidating before she gave him her time. She is rapidly becoming more friendly towards Notrick over their shared love of smithing.
+
+ Madame Janeta:
+The industrious tiefling proprietor of the Saintly Sheep. She is a hard worker and caring for her employees. She relies on her right-hand man and friend Chuck Huggenkiss for his input and protection.
+
+ Chuck Huggenkiss:
+The heavily-muscled bouncer at the Saintly Sheep, Chuck stands out wearing little more than some strappy pants, a vest, and a gaudy pink mohawk. He is friendly towards all, except those who irritate Madame Janeta.
+
+ Vith & Lyrin:
+Old companions of Janos, this lizardfolk crossbowman and elven ranger are now indebted to the Nightwalkers, working as low-level thieves and messengers to try and repay their accruing debt. They want to leave, but are afraid of what happens to anyone who crosses the Guild. Most of the city guards are on the pay of the Nightwalkers, and prevent debtors from fleeing Lutetia. They were waiting to hear from Brightshore about potential elicit drug trade opportunties when they were captured by the Nightwalkers and held captive against the Crew as collateral.
+
+ Sally Knobknocker:
+She is enthusiastic hired help employed by the Emperor to aid the Capable Crew by cleaning their residence, the Capable Keep. She was abducted by the Nightwalkers before being freed and allowed to return to her position in the Keep.
+
+ The Council of Eight:
+In the power vacuum left by the sudden passing of the emperor, his top advisors, heads of various powerful families, and city leaders came together to form the Council of Eight. The members of this council operate as the informal leaders of the empire, directing matters of high priority in the absence of a formal ruler. The members are as follows:
+
+ Lord Giotto Maximilian:
+A young and eager man, who was recently adopted by the Maximilian funded orphanage in Lutetia, where many orphans who grow to maturity take the name Maximilian. He joined politics in mimicry of his benefactor, and focuses on social work and philanthropy efforts in the city.
+
+ Lord Samwell Harrington:
+This portly, balding human man dressed in opulent robes is the head of the wealthy Harrington family. He is responsible for agriculture and trade dealing with foodstuffs and textiles. He likes Vicmorn Glorygem, and works with him closely on acquiring lumber and foodstuffs from the Verdance.
+
+ Judge Elizabeth Pierpont:
+A thin and tight-lipped woman wearing simple dark robes, Elizabeth is a half-elf woman with graying hair. She has squeaky clean motivations (lawful good) and cares only about the facts and ensuring justice is followed. She is the final say on judiciary issues within the city.
+
+ Duke Thomas Brighton:
+A dwarvish man in his prime, with a short temper and wearing ceremonial garb of Grozmirlun. He hates Vicmorn Glorygem, and has criminal ties with the Nightwalkers. He is angry at their dissappearnace and its impact on the local flow of wealth.
+
+ Hierophant Zorythas Neresh:
+An ancient, bronze-scaled dragonborn High Priest of the Temple of Bahamut. He knows Janos, and that he once offered to aid the cult with food, but they robbed his temple's stuff before fleeing to the forests. He is wise and represents the religious of the city.
+
+ General Edrik Gunderson:
+A hulking, heavy-browed human man, he is crass and harsh in demeanor. He wears the uniform of the Crimson Cloaks, but has a history of racism towards orcs due to their raids in the past. He is rumored to have once killed an entire village of half-orc and orc barbarians. He has since gone into exile and returned a changed man, after being forced to cooperate with the Orcs of Thrigrun to survive.
+
+ Court Historian Themaris Elsinor:
+An elven noble from Uthorim, Themaris is a low-born relative of a noble family who spent more time engrossed in books and history than politics. Her dual backgrounds of Uthorim nobility and history, along with her savant memory, make her a valuable reference for the council and its discussions.
+
+ Archmage Phumari the Dazzling:
+A reclusive and powerful mage. She is part fire genasi, and when she is angry her eyebrows burst into flames. She resented Birru, for his obvious magical abilities which he rarely used. She is the Headmistriss of Clearwater Academy and well connected with the magic community.
+
+Past Influential Entities:
+
+ Emperor Galdur Fevagore (Deceased):
+The seemingly immortal emperor of Birrundul, this powerful and ageless leader has guided the western half of the continent for centuries. His true identity is Birru, an ancient wizard who is the only survivor of a past catastrophe which destroyed the Velki Enclave. He recently passed away, aging rapidly due to the expiration of the Lapis Arca, a mystic relic which had been sustaining his life force for ages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Modouli
+A distinct city-state deep in the desert and near the coast, this ancient city is home to diverse inhabitants from many lands. It trades with Lutetia, Brightshore, and other continents frequently, but exists independent of any exterior rule.
+Modouli contains the only fresh water source for over a hundred miles, and is the source of the city’s prosperity.
+The city is surrounded by boundless deserts and mesas, with only the ocean to break the monotony.
+
+ Important Entities:
+
+ Dire Ranid:
+A large, muscular man with two identities: this eccentric character exists as two people, a calm and collected sorcerer, and a raging idiot barbarian. He switches between personalities with no warning or reason. The only indication of which he is depends on whether or not he is wearing glasses.
+
+ Grand Baroness Kaleerah Bekshan: 
+The local ruler of Modouli, she resides in her Starview Palace and leads raids into the desert on the back of her domesticated Purple Worm. She is a half-elvish Champion of the desert wastelands. She is well known for fighting off the advances of the Lamia (desert monsters) with the help of various desert tribes, and is always looking for ways to increase safety for her people. Not technically part of the Empire, Modouli operates under her rule freely, trading with other prominent coastal cities.
+
+ Redjaw the Rich
+A ginger-haired half-ogre who runs the food cart Flavor Gypsies. He is sells kebabs around the city, but is also a ruthless, cunning, and brutal crime boss. He has some human ancestry, which accounts for his ginger hair and abnormal intelligence for an Ogre. He has tanned skin, copious/excessive gold and silver jewelry, and gaudy baggy clothes to cope with the heat. His golden scimitar is a symbol of his wealth, and he is never afraid to use it on his enemies. He is rich from his illegal dealings, and known as Redjaw not just for the color of his beard, but for the blood he frequently gets on his face from slaughter.
+
+ The Breathless:
+This influential assassin's guild is rumored to exist in the desert near Modouli, and is hired frequently by the rich and powerful to deal with their enemies.
+
+ Zao, Arch Suffocant:
+Parental figure to Kestrel, and leader of the mysterious Breathless organization. he was badly wounded in last encounter with the Capable Crew before fleeing through a portal. He is a mysterious figure, and avoids contact with outsiders.
+
+ Kestrel, Expirator:
+A previous member of the Capable Crew, and a reinstated member of the Breathless, she has advanced within the ranks of the guild, and now holds the title of Expirator.
+
+The Haunted Expanse:
+
+What was once the focal point of power for the Velki Enclave, a mysterious blight in the past swept through the area, destroyed the civilization, and sullied the oasis around which the city was built. Now, it is a desolate landscape, filled with the ruins of the failed city, mostly buried under eons of blackened sand. The surrounding desert has been formed into a giant blackened crater, and nothing living approaches.
+
+Adventurers have ventured there in the past in search of treasure, but none return. Many believe the city to be cursed, and that the corpses of the previous inhabitants still wander the wastes.
+
+Mysterious metal “monsters” circle the city every two hours, emitting overwhelming sonic blasts. They appear to be 30 feet long, follow a set path, emit sonic booms by slamming pistons inward, and fly about a foot above the sand. The ruins beneath the sands house mysterious tunnels, undead, and glowing panels with many areas to explore. Many hidden secrets and untold riches likely remain buried beneath the blackened sands, but only the brave or lucky could hope to find some and return alive.
+
+Gnomeopolis:
+Isolated from the empire, this city is built into the western Crast Hills on the shore of Attiwich Loch. All gnomes in the region hail from this area, and mostly keep to themselves. Gnomeopolis is the only civilization on Kamuin thus far to have mastered advanced weapondry such as cannons and firearms, and they guard their technology jealously. The city operates on a heavily mechanized system, with most manual labor being performed by automatons, freeing the small populace to pursue intellectual endeavours. Industry and cleverness drive your social standing in this cuthroat capitalistic society.
+
+ Duchess Elatriss Silentall:
+An elderly gnommish craftswoman (195 years old), Elatriss governs over Gnomeopolis as the trusted elder. She rose to power by building some of the best sailing vessels for the Imperial fleet in Attiwich Loch, before rolling them across the hills to the Sea.
+
+ Yoskas Sparktoe:
+Leader of a band of gnomish mercenaries, this wily gnome wears black clothes and a bandana around his head. He subcontracts out bounties on criminals and monsters alike to those willing to align with his band, the Gearbreakers.
+
+ Albert Ernstein:
+This wild-haired gnome goes by Bert, or Ernie to his friends. A well-informed thief who operates on the streets, he is knowledgeable about previous Nightwalker activity in the region but avoids them. He has a passionate hatred for slavers. He is familiar with all black market activities
+
+ Zanzu Metalseeker:
+An old wizened gnome with a permanent shock of poofed-out frizzy hair. He has super thick spectacles, and is the leader of a group of mechatronic enthusiasts known as the Industrialists. They innovate constantly, and many strange automaton inventions wander their space in the Temple to Mirrodin. He is old enough to remember the Oré Incident, when the Warforged servants overthrew their masters and migrated to Ikesh. He abhors tech bordering on intelligence.
+
+ Myna Silvertuft:
+A regal gnome with silver flowing hair and sharp eyes, Myna is Captain of the Dancers, a group of fighters dedicated to the defense of Gnomeopolis, the Duchess, and her people. They rarely use their Gneutralizer suits, instead relying on rapiers and firearms to enforce the law. They are beloved by the good citizens for their selfless service, and joining the Dancers is a great honor.
+
+Gnomeball:
+
+This recent sport has  exploded in popularity,  with the teams from  each faction in the city  vying for renown each  year in the annual tournament. Bets have  never been higher, and  the stakes are high to  acquire the favor of Brillin  and ensure the player's faction being supported by his industry and maintnence for the following year.
+
+A match is played between two teams, with 5 players on each side. The ball is a massive iron cannonball, and players inside mech suits kick the ball around the large, dish-shaped arena. To score a point, the players must scoop up the ball into their cannon-like arm and fire it through one of three vertical hoop goals. Once they've scooped it up and are taking aim, they cannot move their feet. The teams cooperate to defend their own goals, move the ball to the other team's goals, and pass the ball to get in an optimal angle to fire and earn a point. The smaller, central goal is worth three points, while the larger, side goals are worth one each.
+
+The current active teams are:
+
+ The Gearbreakers: 
+A tight-knit group of mercenaries, successful at protecting private citizens from Orc raids, criminals, and monsters. They are unpopular, but wealthy and respected for their abilities.
+
+ The Rowdy Rodents:
+A ragtag group of backstreet hooligans who've acquired Gneutralizer suits under questionable circumstances. They are a new addition to the roster, and their pluckiness and creative maneuvers have won them some favor.
+
+ The Dancers
+The pilots' formal training and elegant mechs make the Dancers a regular crowd favorite for winning. They also are frequently successful, due to their raw ability. However, they tend to be predictable and sometimes lose to unexpected strategies.
+
+ The Industrialists:
+The oldest team, this group of inventors always deploy the craziest methods to win the game, and are driven to innovate over win conventionally. Led by Zanzu Metalseeker.
+
+ The Gnomeball Stadium
+A place for celebration. Owned and built by Corkas, bets and gambling are rampant.
+
+ The Whimsical Willow
+Local tavern, owner is Daryl
+
+ The Dragon's Dive
+A seedy drinking tavern, owned by a congenial gnome named Toris. A greatsword and a large black claw sit over the mantlepiece, placed there by a great paladin who slew a dragon that once threatened the city with that very sword.
+
+ The Bakery District
+Filled with tasty pastries and associated 
+
+ The Cuddly Chemist
+Potionseller, owner is gnome woman named Shella, everything is Kawaii
+
+ The Clockwork Cobbler
+Sells mechanized weapons, dodgy
+
+ Tinker Tower
+Home to the Duchess and her glass house. The top is a massive clocktower, a feat and keeps time, tolling every hour.
+
+ Attiwich Docks
+Dozens of vessels line the shore, traveling around the lake to fish for food and trade with a couple smaller villages on the perimeter. Fish have been scarce and are weirdly sick, some with extra heads.
+
+ Notia Mines
+The source of the mysterious Welbi Shards, the red glowing crystals that currently harvest solar power and provide energy to many of the automatons within the city. The mines are active, but heavily guarded by the Dancers, as no other known sources are as useful or versatile as Welbi Shards.
+
+ Automated Fields
+Lumbering robots maintain and harvest crops annually, using greenhouses for perennial crops and windmills for power.
+
+ Temples to Erathis, Mirrodin, and Ioun
+Library for Ioun, History museum in Erathis and liberal arts/Architect's college, Tinkering fest for Mirrodin/Smithy.
+
+ Underhome
+A ramshackle affair of floating houses in the sewers underneath Gnomeopolis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Atiwich Loch:
+This massive inland freshwater lake breaks the monotony of the rolling Crast Hills, and provides a source of sustenance to most of the inhabitants of the region. Much of the wildlife ecology is based around this body of water.
+There are rumors of creatures that live in its depths, and many fisherman in the region love to share tales of the Beast, a nameless, amorphous creature that seems to have lived in the Loch for hundreds of years
+Most of the wildlife in the Crast Hills has developed asynchronously with the rest of the region, and is generally more aggressive and dangerous to travelers.
+Orcs have made many of the cave systems their home here, and do not hesitate to slaughter passerby or rival groups of orcs. The easternmost groups bother Swarthmore regularly.
+
+
+
+
+
+
+Harmstead
+
+ Linmell
+
+ Mirstone
+
+
+
+ Urk:
+Orc Citadel in the Crast Hills
+
+ Brooksburg: 
+
+A cozy northern village located half a day's travel inland from the end of the Spinmouth river, where it empties into the Vanjan Sea. This locale is an old fishing, farming, and mining town, primarily inhabited by tielflings and a few halflings. The local inn, the Frosty Goat, is a regular gathering place for the villagers. The silver mines to the northeast have been abandoned for some time, and few venture there due to old rumors about gas leaks and hallucinations. Goblins and gnolls have been pestering the villagers for some time in the surrounding pine forests.
+
+ Important Entities:
+
+ Ozris Curlhorn:
+The proprietor of the Frosty Goat, this orange tiefling man with ram's horns is warm and friendly. He stands up for his neighbors, and is always willing to dash into battle if anyone threatens his friends. He has been graciously hosting the team for free after their defeat of the gnoll war pack.
+
+ Yatari Warmhand:
+A purple-reddish tiefling woman with elegant long horns who owns the general store the Curved Blades. She trades in goods collected over a wide range, and helps defend her town against goblins and other threats with her two rapiers.
+
+ Samson Goodchild:
+An elderly halfling in a wheelchair who frequents the Frosty Goat and likes to collect anything book related. He recalls the Silver Mines closed when he was a boy due to natural gas leaks that made people hallucinate. He also dabbles in wizardry from all his reading, and has been hugely helpful to the team in their research and defense of town.
+
+ Yareag Strongspine:
+The blue tiefling sheriff of Brooksburg, a burly man wielding a rapier. He is friendly to travelers and always willing to hunt down pesky evildoers near his village. He gifted his favorite rapier to Thuzzal as a gesture of gratitude.
+
+ Olivia the Stong
+A pink female tiefling who works in a simple forge on the norther part of town. She sports dainty pointed horns, rippling muscles, and a pleasant demeanor.
+
+ Dhokaan the Alchemist
+A black-skinned tielfling herbalist/alchemist who used to be a productive member of town. He went missing suddenly several months ago. His house lies dormant and dusty in Northern Brooksburg.
+
+ Burnsley
+
+A rugged trading town, Burnsley is home to mostly gnomes, halflings, and humans who make a living hunting in the dense pine forests nearby, while pursuing small businesses within the palisade walls. The are generally accepting of outsiders, but suspicious of trouble-makers.
+
+ Important Entities:
+
+ Adgran Lightbraid
+
+An older halfling man, this gray haired and muscular blacksmith runs the Fire and Furnace. He is honest and has an air of perpetual exhaustion, balancing the demands of his work and family life, including his four daughters Quiphina, Brene, Beleni, Zefla.
+
+ Meriel Wynhorn
+
+A human enchantress, this woman is tall and thin with simple robes. She spends many of her days crafting and gathering unique magical items in her business, Wynhorn's Tomes, and helps the local townsfolk when necessary.
+
+ Byllenan Ironborn
+
+This gnomish alchemist has a curious assortment of facial piercings that offset his green hair and spectacles. His alchemy store, Ironborn's Beakers, makes a modest income from selling aid and ointments to the townsfolk.
+
+Erik Berkesk
+
+The owner of the local inn Erik's Dragon, Erik is a friendly ex-adventurer with ginger hair and a portly frame. He has a fat blue pet pseudodragon named Lick who sleeps on the main counter unless it senses food. He likes to tell tall tales, most of which are made up. He is well connected and familiar with the local gossip.
+
+ Ludo Strongfoot
+
+A wealthy halfling man who runs a stable selling horses and oxen. He makes a solid business selling mounts to travelers, and regularly price gouges. He is tall for his race, and prefers to wear fine leather clothes. His stablehands, mostly men, handle the animals.
+
+ Tim and Shale
+
+Two chill dudes, these ex-bandits of the Venom Vulture Gang work as cooks for Erik in the Dragon Inn. They came to Burnsley with the our heros after being the only survivors of the bandit raid at the bridge to the north.
+
+ Tallion the Tall
+
+Owner of the general store, Tallion sells basic wares to travelers and townsfolk alike. He is soft-spoken, tall and gentle-mannered, and has a reputation for being kind and generous to those who barter fairly.
+
+ Skulldura:
+This frozen, icy fishing village lies to the farthest northern reach of Kamuin. Iceburgs form a thorny perimeter off the coast, and many small sailing vessels wander offshore, catching and hunting the famous Droppkulur. These strange beasts resemble massive, shaggy walrus, with the difference of having a single great horn protruding from its face like a rhino. Many Skulldurian youths attempt to slay and bring back a Droppkulur as proof of their skill and tenacity. The denizens are all nordic humans, but a select few occasionally manifest slightly aquatic features, such as small fins, scales, or patches of bluish skin. Those that do are considered blessed by the sea, and call back to the ancient founders of their village, who they refer to as the Anointed.
+
+ Important Entities:
+
+ Waverider Bjorne
+As the village chieftain, Bjorne has been struggling of late with strange cultists in the wastes nearby, several of whom originated from the village. They worship a strange entity, a personification of the planet Yoria in the night sky. He wants to bring the village youths back and save them, but they have desecrated the sacred sanctum in the ice caverns and stole an ancient artifact.
+
+ Móðir Annvieg
+The spiritual leader and elderly matron of the village, with fish-like fins protruding where ears would be. She is wise and has a strong connection with the ocean. She worships an entity called the Deepwalker, and is the keeper of the ice caverns and the shrine below the waves. She was injured when the cultists broke in and stole an artifact, and bears great resentment towards them for that.
+
+ Hranfast Hognisson
+A well-meaning fisherman who frequently hunts Droppkulur.
+
+ Bolla Sigehelmdottir
+A woman of the village, she helps raise the children and frequently aids Annveig with her work.
+
+ Arnthor Gunnkelsson
+A youth who led the raid to steal the village artifact, and who hasn't been seen in months, after he left to join the Cult of Yoria
+
+ Hrollaug Gunnkelsson
+The brother to Arnthor, who worries for his safety and sanity. He witnessed his brother's descent into madness, and worries about what caused his to do so.
+
+ The Golden Crossroads
+An intersection of land and sea trade routes between erous cities, this temporary town forms a constantly shifting assortment of traders, travelers, and collectors from the main regions of Brightshore, Lutetia, and Modouli. Random shops and stalls are everywhere. Almost anything can be found and bought here, at a price. Situated at the literal intersection are three statues: an elf pointing towards Modouli (Semet the Vigorous, a desert elf who helped found Modouli several hundred years ago), a gnome (Fizbin the Wise, who drove out Sauhuagin and made Brightshore 200 years ago), and a human male with a club (Charles the Hearty, a barbaric but wise defender of justice who helped drive out wandering orc bands in the Balmere Plateau, allowing Lutetia to thrive and trade to flourish.) 
+
+ Nickleback Schnicklefritz
+A wandering homeless halfling, this strange fellow with bulging bloodshot eyes and a limp has a random assortment of dubious goods at very cheap prices. Finding him is a bit of a search, and needs a high investigation roll to figure out what corner of the region he's holed up in.
+
+Important Shops
+ Books and Bobbles
+(owned by Cygna the Curious (an aged gnome with neon green hair and thick glasses)) is one of the three permanent installments. It is an ancient and random collection of knowledge from across the continent. 
+
+ The Raggedy Wizard
+(owned by Kalondra the Broad (muscled female dwarf with glorious beard and braids)) is a constantly overflowing inn with inflated prices, with only the truly weary paying the fees for stay.
+
+ Rango Ranch
+(owned by Hugo Higgins (halfling male with a shock of dyed blue hair)) maintains a wide variety of oxen, horses, and some various exotic mounts to facilitate travelers and their travel across the western reaches of the continent.
+
+Crooked Rock
+
+Deep in the Killifyn Wilds, this small town sits between the dwarven kingdom of Groz and the elven kingdom of Uthor. Megafauna wander nearby, as massive redwoods and oaks shade the simple pastoral lifestyle of the people who call Crooked Rock their home. A massive stony outcropping casts its shadow over the entire town, hinting as some geological curiosity of ages past.
+
+ Improtant Entities:
+
+ Tora, The Bright-Eyed Gray
+- Once the leader of a savage band of werecreatures, Tora was permanently transformed into a massive gray panther as a boon from her god, Malar. However, her entire worldview changed with time, and she now seeks to protect the town of Crooked Rock from outside attacks by bandits and monsters in the wilderness. She serves as its guardian, and the villagers both revere and care for her in return.
+
+ Brad Smithson
+- An older dwarven man, Brad is a capable smith who is in touch with the land. He deals with the local's various problems with plows and tools, and has seen his way around the area.
+
+ Renchax the Druid
+- An ancient tabaxi who was locked away from her home in the Mass Sealing and had to adapt to life in the Feywild. Her age is unknown, and her time in the Feywild has left her strangely affected, growing horns and preferring beast shapes to her own natural form.
+
+Uthorim
+
+This well-established stronghold represents the might of the Elven kingdom of Uthor. It has stood for centuries as a bastion of beauty, peace and tranquility as the world changed around it. The country of Uthor functions as a Gerontocracy, with wise elders from each of the noble houses presenting the needs and causes of the nation. Uthorim is the Capitol, housing the oldest elven houses and their representatives. It relies heavily on the surrounding cities for essential goods and support, with the majority of wealth and luxury within the country concentrated within its walls. It is known across Kamuin for its ornate architecture, luxury, and Estelar Academy, which only the most talented Elves and gifted members of other races are allowed to attend in the pursuit of knowledge and magic skill. The army and navy of Uthorim are small but highly skilled, consisting of masters of both swordplay and the arcane arts.
+
+ Important Families:
+
+ House Elsinor:
+
+Norillon Elsinor is the head of this family, and is the baron of land trade routes between major Elven cities, and beyond. The Elsinor family lost standing when Norillon had a child with a non-elf, and raised her as a noble. While wealthy, the Elsinors lack influence, and are viewed as being too friendly towards outsiders.
+
+House Mortris
+
+Aquilan Mortris is the Keeper of the Flame and the Dawn Cathedral, the centralized, monotheistic religion of the elves. They primarily worship the god Corellon Larethian, the Flame of Dawn, and are generally racist and intolerant to other worship. They allow minor worship of other lesser elven deities within the Elven Pantheon of the Seldarine, but none outside of it. Aquilan also serves as head justice, determining matters of punishment.
+
+ House Yinris
+
+Lynari Yinris runs Estelar Academy as the Headmaster, and is peerless in her command of magic. She is the higest respected of the nobles for her power and wisdom, but lacks widespread influnce amongst the elves due to the elitist nature of her focus.
+
+ House Vallar
+
+Ruevyn Vallar directs the training and maintenance of the armed garrison of Uthorim, in order to protect shipment routes and other cities from attack or banditry, and is generally respected as having the greatest influence amongst the nobles.
+
+ House Caemious
+
+Seldonna Caemious oversees the economic aspects of trade through the riverways and ocean routes. The wealthiest of the Noble Houses.
+
+Grozmirlun
+
+The center of Dwarven influence on Kamuin, and the capitol city of the Kingdom of Groz, Grozmirlun is steeped in history. This surface city extends deep underground, and is beloved by Dwarves across the continent. It is renowned for its seemingly endless selection of ales, lagers, beers and other assorted alcohols, as well as its legendary roasted meats.
+
+Important Entities:
+
+ Rellit the Outcast
+ Rutgar the Ready
+ Moldoon the Ranger
+ Aldrerika’s Alehouse
+ Baduk Flintchipper

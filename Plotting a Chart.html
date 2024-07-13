@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Plot Example</title>
+    <!-- Include Plotly.js or another plotting library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <input type="text" id="inputNumbers" placeholder="Enter numbers separated by commas">
+    <button onclick="updatePlot()">Update Plot</button>
+
+    <div id="plot"></div>
+
+    <script>
+        function updatePlot() {
+            var input = document.getElementById('inputNumbers').value;
+            // Split the input string by commas and convert each part to a number
+            var numbers = input.split(',').map(function(item) {
+                return parseFloat(item.trim());
+            });
+
+            // Create an array of indices
+            var indices = numbers.map((_, index) => index);
+
+            // Create a trace for the plot
+            var trace = {
+                x: indices,
+                y: numbers,
+                type: 'scatter'
+            };
+            var data = [trace];
+            Plotly.newPlot('plot', data);
+        }
+    </script>
+
+</body>
+</html>

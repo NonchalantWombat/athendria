@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Locations List with Images</title>
+	<style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+		body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+			background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+			background-repeat: repeat; /* This will tile your image across the background */
+			background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+			background-size: 100% auto; /* This will ensure the image covers the entire background */
+		}
+        img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px; /* Smooth, cureved edges */
+        }
+        #godListA img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+        #godListB img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+        #godListC img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+	</style>
+</head>
+
+<script>
+function sortList(List_Var) {
+  var list = document.getElementById(List_Var);
+  var items = list.getElementsByTagName('li');
+  var itemsArr = [];
+  for (var i in items) {
+    if (items[i].nodeType == 1) {
+      itemsArr.push(items[i]);
+    }
+  }
+  itemsArr.sort(function(a, b) {
+    return a.innerHTML == b.innerHTML
+            ? 0
+            : (a.innerHTML > b.innerHTML ? 1 : -1);
+  });
+  for (i = 0; i < itemsArr.length; ++i) {
+    list.appendChild(itemsArr[i]);
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>The Gods of Athendria</strong></h1>
+
+<p>There are many deities which receive worship within the realm of Athendria. The good and neutral deities receive active worship, while worshippers of the evil or destructive deities are more widely rejected and persecuted. Many individuals may worship more obscure entities, or cultural groups may follow distinct deities, such as the widespread orc worship of Gruumsh. Here are several significant deities across the continents.</p>
+
+<img src='https://i.postimg.cc/g2mgBQsM/All-Gods.png' alt='Gods'>
+
+<h1>The Seven (The Good Deities)</h1>
+<button onclick="sortList('godListA')">Sort Alphabetically</button>
+
+<ul id="godListA">
+    <li>
+        <h2>Baharda, The Platinum Dragon</h2>
+        <p>Domain: Justice</p>
+        <p>Subdomains: Just War, Strength, Curiosity</p>
+        <p>The lawful good deity, primary figurehead for worship by the Dragonborn. A benevolent platinum dragon responsible for order, new life, and rebirth.</p>
+        <img src='https://i.postimg.cc/tJFgb2fF/Baharda-BG.png' alt='Baharda' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Kordon, The Harbinger</h2>
+        <p>Domain: Perseverance</p>
+        <p>Subdomains: Storms, Combat, Forging, New Beginnings</p>
+        <p>A chaotic good God, his followers adhere to rules of ritual combat, and strive to distinguish themselves in battle using their own strength and weapons on their own creation.</p>
+        <img src='https://i.postimg.cc/pXZfyTQZ/Kord.png' alt='Kord' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Raina, The Earthmother</h2>
+        <p>Domain: Nature</p>
+        <p>Subdomains: Birth, Farming, Weather, Healing</p>
+        <p>The chaotic good goddess of nature, and clerical sponsor of Spinel. She gave Spinel the charge of restoring balance to the world, and respecting the natural order of nature as it should be. She watches Spinel’s progress with interest. She recently released the full potential of Spinel’s staff after the Capable Crew defeated the Kraken.</p>
+        <img src='https://i.postimg.cc/3Jdd9n3c/Melora2.png' alt='Moloraina' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Loreus, The Rising Sun</h2>
+        <p>Domain: Light</p>
+        <p>Subdomains: Kindness, Warmth, Altruism, Charity, Sunrise, Farming</p>
+        <p>The neutral good god, Pelor is well-liked amongst the empire and beyond, and is one of the most-worshipped deities in the modern pantheon.</p>
+        <img src='https://i.postimg.cc/ZKB1PjVj/Loreus.png' alt='Peloreus' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Iwana, She Who Knows</h2>
+        <p>Domain: Knowledge</p>
+        <p>Subdomains: Secrets, Education, Creativity, Intuition</p>
+        <p>This neutral goddess is commonly worshiped by historians and arcane magic users, and she is often associated with Erathis and Mirrodin for their shared roles in shaping society.</p>
+        <img src='https://i.postimg.cc/zX5wJWhv/Iowana.png' alt='Iowana' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Edyno, The Edifier</h2>
+        <p>Domain: Civilization</p>
+        <p>Subdomains: Motivation, Industry, Technology</p>
+        <p>This true neutral god is admired by some wizards and political figures for its pure expression of progress for progress's sake.</p>
+        <img src='https://i.postimg.cc/vT7Wr8JG/Erathis.png' alt='Erathis' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Heironeous, The Brother</h2>
+        <p>Domain: Friendship, Camaraderie</p>
+        <p>Subdomains: Community, Healing, Mental and Physical Health, Purpose, Beauty, Fitness</p>
+        <p>Heironeous is worshipped by crusaders for chivalry, brotherhood, and justice, who go out into the world and promote goodwill. His opposite, Hextor, is followed by dark and hateful creatures seeking discord and violence.</p>
+		<img src='https://i.postimg.cc/KzZYR4hX/Heironeus.png' alt='Heironeous' style='width:600px;'>
+    </li>
+</ul>
+
+<h1>The Neutral Deities</h1>
+<button onclick="sortList('godListB')">Sort Alphabetically</button>
+
+<ul id="godListB">
+    <li>
+        <h2>Voidera, The Shepardess</h2>
+        <p>The Goddess of night and the afterlife, this is a lawful neutral deity feared by many. Poorly understood, she is worshipped for her role in shepherding the dead to their places across the planes in the afterlife.</p>
+        <img src="https://i.postimg.cc/Twdzr64W/Voidera.png" alt='Voidera' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Mardolin, The Tinker</h2>
+        <p>A dwarven god of Invention and Tinkering, this chaotic good deity is also commonly worshipped by gnomes. He is friends with Ioun and Erathis.</p>
+        <img src="https://i.postimg.cc/SRGMXT9s/Mirrodin.png" alt='Mardolin' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Aegir/Aegira, The Deepwalker</h2>
+        <p>A god of the oceans, the depths, contemplation, and aquatic creatures good and bad. Aegir has a dual nature; Aegira represents their lawful side, focusing on healing, community, bountiful fishing, and more. Aegir represents their chaotic side, focusing on riptides, lurking monsters in the depths, horrible storms at sea, solitude, and more. Sailors used to pay tribute to Aegir before a voyage, praying for safe passage, but worship of the deity went out of style in favor of Kord or Melora (Storms and Nature).</p>
+        <img src="https://i.postimg.cc/1tnBqQRz/Aegir-the-Deepwalker.png" alt='Aegir' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Selûnar, The Moondancer</h2>
+        <img src="https://i.postimg.cc/k436T3FG/Selunar.png" alt='Selunar' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Gromm, The Orcsire</h2>
+        <img src="https://i.postimg.cc/9MLvbn6g/Gromm.png" alt='Gromm' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Nivrag/Ingvar the Transient, The Fickle Guide</h2>
+		<img src="https://i.postimg.cc/qMknfrfC/Nivrag-the-Transient.png" alt='Nivrag' style='width:600px;'></br>
+		<img src="https://i.postimg.cc/Njj1Xcpw/Ingvar-Seven-Toes-the-Ephemeral.png" alt='Ingvar' style='width:600px;'></br>
+        <img src="https://i.postimg.cc/9ffKj0Sp/The-Eyes-of-Fate-2.png" alt='The-Eyes-of-Fate-2' style='width:600px;'>
+    </li>
+    <li>
+    <li>
+        <h2>Atrexalon, the Sightless</h2>
+        <p>One of the Draconic Triad, Atrexalon wanders the Astral Sea after his banishment and binding performed by the heroic efforts of the Archmages of Ikesh and the Greymoore Gang.</p>
+        <img src="https://i.postimg.cc/cHpJPVDs/Atrexalon-NB.png" alt='Atrexalon' style='width:600px;'>
+    </li>
+</ul>
+
+<h1>The Evil Deities</h1>
+
+<button onclick="sortList('godListC')">Sort Alphabetically</button>
+
+<ul id="godListC">
+    <li>
+        <h2>Orkhan, The Undying</h2>
+        <p>A chaotic evil demon lord of Undeath, who resurrects powerful evil to torment others in retribution. It seems to be taking an interest in adventurers in Athendria, seeking to influence them and find a way out of the depths of the Abyss. If it had its way, it would end all life, leaving the universe in a permanent state of undeath.</p>
+        <img src="https://i.postimg.cc/wMPn8sTh/Orkhan.png" alt='Orkhan' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Mammon: The Lord of Greed</h2>
+        <p>The lawful evil Arch-Devil of wealth and lies, whose power trickles down to those who seek wealth via a series of decreasingly powerful devils.</p>
+        <img src="https://i.postimg.cc/wjBxd0Ny/Mammon.png" alt='Mammon' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Hexamanus: The God of Strife</h2>
+        <p>The antithesis of Hieroneous, Hexamanus is a 6-armed menace, bent on the destruction of civilization through war and chaos.</p>
+        <img src="https://i.postimg.cc/8PBHWwGL/Hexamanus.webp" alt='Hexamanus' style='width:600px;'>
+    </li>
+	<li>
+        <h2>Nethrix, the Crawling Queen</h2>
+        <p>A forbidden drow deity, this ancient being is the goddess of the underdark and spiders.</p>
+        <img src="https://i.postimg.cc/g2t3qTTL/Llolth.png" alt='Nethrix' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Shar, the Faceless</h2>
+        <p>The dark sister to Selûnar. A once powerful goddess of shadow, this entity now resides in the Shadowfell in a ruined onyx palace, dealing with mortals to learn new knowledge, secrets, and twist their lives. She has a personal vendetta against Pelor from the conflicts of the past, and wants Nameless to bring her his archangel, Azazel. Shar resembles a woman with flowing back hair, but has a rudimentary face of shifting shadow that creates only rough black holes where eyes and a mouth should be. She resides in the Obsidian Palace, a mysterious castle that moves across the Shadowfell randomly.</p>
+        <img src="https://i.postimg.cc/RVn3xQpD/Sharr.png" alt='Sharr' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Tarmast</h2>
+        <p>The Broodmother of Dragons, the goddess of chromatic dragons, hydras, and evil draconic beings. Imprisoned in the Hells, Tarmast eternally strives to escape and return to Athendria, once again destroying the land and slaughtering all she encounters.</p>
+        <img src="https://i.postimg.cc/T2jf6yrW/Tarmak5.png" alt='Tarmast' style='width:600px;'>
+    </li>
+</ul>
+
+<h1>The Outsider Deities</h1>
+
+<button onclick="sortList('godListD')">Sort Alphabetically</button>
+
+<ul id="godListD">
+    <h2>Taragog, The Unknowable</h2>
+        <p>A chaotic god of abberhations, decay, the void and the unknown, this deity is worshipped by beholders and mindflayers. The Breathless Assassins' guild in Modouli worship him exclusively, but few other individuals outside of the clerical profession call upon his influence.</p>
+        <img src="https://i.postimg.cc/MHzc87L8/Torog.jpg" alt='Ingvar' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Annam: Father to Giants</h2>
+        <p>The original father of the different giant races, and long since believed dead or asleep by giantkind.</p>
+        <img src="https://i.postimg.cc/WpfBJx6h/Annam.png" alt='Annam' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Bialis Archon</h2>
+        <p>A mysterious forgotten deity, whose desire for entertainment is never satisfied. It seeks heroes and villains, transports them to a demi-plane of his own design, and commands them to engage in mortal combat, rewarding the victor with wealth or good fortune in the Athendria afterwards.</p>
+        <img src="https://i.postimg.cc/RCtGC4bs/Bialis-Archon-the-Primogenitor.png" alt='Annam' style='width:600px;'>
+    <li>
+        <h2>Pantheon of the Reznor Dominion: The Primaries</h2>
+        <!-- Additional details or images for the Reznor Dominion can be added here -->
+    </li>
+    <li>
+        <h2>Elizarae: Dark Elven God of Beauty, Leadership, and Matriarchs</h2>
+        <img src="https://i.postimg.cc/rpzCBkr9/Ellisatree.png" alt='Elizarae' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Selvetarm, the Dark Elven War God for conquest and expansion</h2>
+        <img src="https://i.postimg.cc/3wD0jJGz/Selvetarm.png" alt='Selvetarm' style='width:600px;'>
+    </li>
+    <li>
+        <h2>Pantheon of the Kingdom of Uthor: The Highlords</h2>
+        <!-- Additional details or images for the Kingdom of Uthor can be added here -->
+    </li>
+    <li>
+        <h2>Pantheon of the Orc Tribes: The Orcsires</h2>
+        <!-- Additional details or images for the Orc Tribes can be added here -->
+    </li>
+    <li>
+        <h2>Pantheon of the Goblinoids: The Nimble Ones</h2>
+        <!-- Additional details or images for the Goblinoids can be added here -->
+    </li>
+    <li>
+        <h2>The Primogenitor</h2>
+        <img src="https://i.postimg.cc/3JKhW80s/The-Primogenitor.png" alt='Primogenitor' style='width:600px;'>
+    </li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Races of Athendria</title>
+	<style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+		body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+			background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+			background-repeat: repeat; /* This will tile your image across the background */
+			background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+			background-size: 100% auto; /* This will ensure the image covers the entire background */
+		}
+        img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px; /* Smooth, cureved edges */
+        }
+        #raceList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+	</style>
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('raceList');
+  var items = list.getElementsByTagName('li');
+  var itemsArr = [];
+  for (var i in items) {
+    if (items[i].nodeType == 1) {
+      itemsArr.push(items[i]);
+    }
+  }
+  itemsArr.sort(function(a, b) {
+    return a.innerHTML == b.innerHTML
+            ? 0
+            : (a.innerHTML > b.innerHTML ? 1 : -1);
+  });
+  for (i = 0; i < itemsArr.length; ++i) {
+    list.appendChild(itemsArr[i]);
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<button onclick="sortList()">Sort Alphabetically</button>
+
+<ul id="raceList">
+
+    <h1>Athendria's Magical Races</h1>
+		<li><h2>Humans</h2>
+            <p>Physically diverse, adaptable, and ambitious with varying tastes, morals, and customs.</p>
+            <img src="https://i.postimg.cc/mgj9Rsnq/Humans.webp" alt="Humans" style='width:100%;'>
+        </li>
+        <li><h2>Elves</h2>
+            <p>Includes Arboreal Elves and Dark Elves (Drow), known for their unearthly grace and connection to nature or the Underdark.</p>
+            <img src="https://i.postimg.cc/4dSny4vL/Arboreal-Elves.webp" alt="Arboreal Elves" style='width:100%;'></br>
+            <img src="https://i.postimg.cc/pVfnVW0w/Dark-Elves-V2.webp" alt="Dark Elves (Drow)" style='width:100%;'>
+        </li>
+        <li><h2>Dwarves</h2>
+            <p>Subcategories include Mountain Dwarves, Hill Dwarves, and Deep Dwarves.</p>
+            <img src="https://i.postimg.cc/K827xQ8K/Dwarves.webp" alt="Dwarves" style='width:100%;'>
+        </li>
+        <li><h2>Orcs</h2>
+            <p>Kamui Orcs (known for smithing) and Ebrean Orcs (located in southern Ebrea).</p>
+            <img src="https://i.postimg.cc/sXyG7bx6/Orcs-V2.webp" alt="Orcs" style='width:100%;'>
+        </li>
+        <li><h2>Goblinoids</h2>
+            <p> Bluebrows, Cinderskins, and Shrubbin Goblins.</p>
+            <img src="https://i.postimg.cc/R0Pw1BQf/Goblins.webp" alt="Goblins" style='width:100%;'></br>
+			<p> Hobgoblins and Bugbears.</p>
+            <img src="https://i.postimg.cc/ZnSH9fz4/Hobgoblins-Bugbears-V2.webp" alt="Hobgoblins and Bugbears" style='width:100%;'>
+        </li>
+        <li><h2>Stoutlings</h2>
+            <p>Consists of Gnomes, Lightfoots, and Strongarms.</p>
+            <img src="https://i.postimg.cc/FsgdgvhR/Stoutlings.png" alt="Stoutlings" style='width:100%;'>
+        </li>
+        <li><h2>Uryons (The Warforged)</h2>
+            <p>Divided into Infrastructure Designation, Combat Designation, and Service Designation.</p>
+            <img src="https://i.postimg.cc/xjmb8H7L/Warforged.webp" alt="Uryons (The Warforged)" style='width:100%;'>
+        </li>
+        <li><h2>Dragonborn</h2>
+            <p>Categorized into Chromatic Dragonborn, Metallic Dragonborn, and Gemstone Dragonborn.</p>
+            <img src="https://i.postimg.cc/fW1jgM4f/Dragonborn-Chromatic.webp" alt="Dragonborn (Chromatic)" style='width:100%;'></br>
+            <img src="https://i.postimg.cc/bNb074pc/Dragonborn-Metallic.webp" alt="Dragonborn (Metallic)" style='width:100%;'></br>
+            <img src="https://i.postimg.cc/pTTpP5j5/Dragonborn-Gemstone.webp" alt="Dragonborn (Gemstone)" style='width:100%;'>
+        </li>
+        <li><h2>Giantfolk</h2>
+            <p>Includes Firbolgs, Oxenfolk, and Half-Giants.</p>
+			<img src='https://i.postimg.cc/LXwf73W8/Firbolgs.webp' alt='Firbolgs' style='width:100%;'></br>
+			<img src='https://i.postimg.cc/Bvw1LC4B/Oxenfolk.webp' alt='Firbolgs' style='width:100%;'></br>
+			<img src='https://i.postimg.cc/2yWvfBpF/Half-Giants.webp' alt='Half-Giants' style='width:100%;'>
+			
+        </li>
+        <li><h2>Reptilia</h2>
+            <p>Comprising Turtlefolk, Lizardfolk, Snakefolk, Grung and Kobolds.</p>
+			<img src='https://i.postimg.cc/8Cdjpw4h/Reptilia-V2.webp' alt='Reptilia' style='width:100%;'>
+        </li>
+        <li><h2>Pantheri</h2>
+            <p>Includes Catfolk and Lionfolk.</p>
+			<img src='https://i.postimg.cc/wvyRhsB8/Pantheri.webp' alt='Pantheri' style='width:100%;'>
+        </li>
+        <li><h2>Birdfolk</h2>
+            <p>Consists of Skybound (Aarakokra) and Striders (Owlin, Kenku).</p>
+			<img src='https://i.postimg.cc/R0WHvw8d/Birdfolk-V2.webp' alt='Birdfolk' style='width:100%;'>
+        </li>
+		<li><h2>Yuan=Ti</h2>
+            <p>Snake-like abominations, or lithe, stealthy purebloods.</p>
+			<img src='https://i.postimg.cc/PrkvwJs9/Yuan-Ti.webp' alt='Yuan-Ti' style='width:100%;'>
+        </li>
+        <li><h2>Aquaan</h2>
+            <p>Features Tritons, Merfolk, and Octarians.</p>
+			<img src='https://i.postimg.cc/xjX3RcZd/Aquatica.webp' alt='Aquaan' style='width:100%;'>
+        </li>
+        <li><h2>Shifters</h2>
+            <p>Includes Swiftstride, Longtooth, and Beasthide.</p>
+			<img src='https://i.postimg.cc/8cLFYQWZ/Shifters.webp' alt='Shifters' style='width:100%;'>
+        </li>
+        <li><h2>Fae-Touched</h2>
+            <p>Comprises Changelings, Satyrs, and Eladrin.</p>
+			<img src='https://i.postimg.cc/9MrZJnJk/Faetouched.webp' alt='Fae-Touched' style='width:100%;'>
+        </li>
+        <li><h2>Ascendants</h2>
+            <p>A progenitor race to many of Athendria's races.</p>
+			<img src='https://i.postimg.cc/ZY7jYqBf/Ascendants-V2.webp' alt='Ascendants' style='width:100%;'>
+        </li>
+        <li><h2>Half-Breeds</h2>
+            <p>Hybrid races formed from pairings of various races.</p>
+			<img src='https://i.postimg.cc/Fst3VGcP/Halfbreeds.webp' alt='Half-Breeds' style='width:100%;'>
+        </li>
+        <li><h2>Plane-touched</h2>
+            <p>Races with extraplanar influences, including Blightbloods (Infernal and Demonic Bloodlines).</p>
+			<img src='https://i.postimg.cc/ZKr373xJ/Hellblood.webp' alt='Blightbloods' style='width:100%;'></br>
+			<p> Angelborn (Protector, Fallen, Scourge) </p>
+			<img src='https://i.postimg.cc/yN7DrbYP/Angelborn.webp' alt='Angelborn' style='width:100%;'></br>
+			<p> Elemental Lineages (Fire, Earth, Water, Air-blessed) </p>
+			<img src='https://i.postimg.cc/Jh7bBnJM/Elementarons.webp' alt='Elemental Lineages' style='width:100%;'>
+        </li>
+</ul>
+</body>
+</html>

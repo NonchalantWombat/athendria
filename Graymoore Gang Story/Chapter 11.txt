@@ -1,0 +1,110 @@
+
+<style>
+  .phb#p1:after { display:none; }
+</style>
+
+<img
+src='https://i.postimg.cc/QtN3cPts/Ceaseless-Squall-Boundary.webp'
+style='position:absolute;bottom:300px;left:-85px;width:1000px'/>
+
+<div class='cover-diamond'></div>
+
+<div class='cover-header'>Chapter 11: The Ceaseless Squall</div>
+
+<div class='cover-footer'>Reuiniting after their separate challenges, the party seeks to understand the mysterious phenomenon behind the Ceaseless Squall... </div>
+
+
+
+<div style='text-align:center'>
+
+## **LEVEL UP (13)**
+
+</div>
+
+### 28th of Nimbus - 7th of Mistro:
+
+- After a few days, Zephyr and Ser return to Drakkengrad in the Perilous Peryton, to reunite with Kaz and Dhamiria. Kaz has recovered, and Dhamiria has spent several days getting to know her father.
+- The group catches each other up, learning of Kaz's final break with his family, the rescue of Dhamiria's father, the source and defeat of the Darkness in the heart of the Olmothian Woods, and the release of **Atrexalon**. They speculate as to the impact that Crystal Dragons returning to the world may have, and scry on Atrexalon's current wearabouts.
+- They see that Atrexalon has arrived at Godsgate Volcano in Ebrea, and currently appears to have curled up around it and gone back to sleep. It seems that while he is free of the enchantment that kept him buried and forgotten in the Olmothian Woods, some residual exhaustion has sent him back to sleep, for now.
+- Deciding there is nothing to be done on that front for now, the party discussess what to do next. They recieve a letter from Typhon in Lysanor, who informs them of his impending research expedition courtesy of funding from Archmage Thariune, to explore the various meteorological phenomena unearthed in their journey to Darkspires and the Windswept Tower.
+- They agree to coodinate with Typhon and meet him in the Twilight Archipelligo to observe and study the Ceaseless Squall, the first of these strange phenmomena. Typhon tells them he will be uniteing with an expedition group from the elven kingdoms of Uthorim, and a small fleet of ships will converge there.
+- The party spends a few days recuperating in Drakkengrad and restocks their ship, before preparing to depart with Amani in their airship.
+
+
+
+### 8th of Mistro (8 Months, 15 Days):
+
+- The Perilous Peryton departs Drakkengrad, bound for the southwestern edge of Ikesh. The journey takes a week and a half, giving the team plenty of time to recuperate, plan, and strategize.
+- Along the journey, Kaz is confronted by Zehruut one evening after the rest of the team is asleep. The tiny purple dragon leers at Kaz, noting his lack of recent utilization of the Dolorvasculo.
+- Kaz is evasive, trying to shrug it off. Zehruut tells him that its a bit too little, too late, and Kaz is suddenly hit with a horrible, mind-melting pain. 
+- Zehruut watches Kaz writhe on the ground for a few moments, at least until one of the Dolorvasculo is illuminated from within, seemingly in response. Then, it disappears in a flash, and Kaz is allowed to catch his breath. Zehruut acts the slightest bit regretful, stating that it isn't personal, but business is business and the **Blue Duke** must get his due.
+- Kazbiel attempts to ignore this experience, but secretly agrees to be more deliberate about the Dolorvasculo and to ensure they are properly charged, as he was instructed.
+- Zephyr continues to train her strength, and Mittens asks many questions about the nature of the world, as he continues to explore his new sentience. Ser has a conversation with Old Silverhands, and learns the strange dwarf is in fact a Silver Dragon in disguise. He reveals he suspects that his brother, a Blue Dragon, could be behind Ceaseless Squall. Unwilling to fight his brother, he leaves the airship in the night.
+
+### 23rd of Mistro (9 Months, 2 Days):
+
+- The crew of the Peryton finally arrives over the Twilight Archipelligo, spotting the flotilla of ships docked at a remote outpost. On the horizon, the Ceaseless Squall rages eternal, full of lightning and furious wind and rain. Upon arriving, they are escorted to the central ship, where they reunite with Typhon, and are introduced to an elven </br> Storm Specialist from </br> Uthorim, the one </br> and only **Lady </br> Galaxea </br>Elsinor**.
+
+<img
+src='https://i.postimg.cc/W3phJgbd/Galaxae-No-Background.png'
+style='position:absolute;bottom:-390px;right:0px;width:800px'/>
+
+<div class='footnote', style="color:black"> Chapter 11 | The Ceaseless Squall</div>
+
+
+
+- Galaxea is the representative from Uthorim, and her expertise in storm magic makes her the most relevant person for the job at hand. Recognizing her fame, the party is somewhat star-struck by this legendary hero from years past, who once saved all of Athendria from an Aboleth invasion.
+- After introductions, the team sits down at a table and begins planning with the researchers. Zephyr notices that, lurking in the shadows, Unseen from Lysanor are part of the expedition, and they sit back listening and watching from behind their masks.
+- The plan is to send an elite team consisting of the party, Galaxea, and 10 other Uthorian soldiers on a reinforced sailing vessel into the heart of the storm itself. Galaxea explains her intent to take control of the Squall, and force an opening so they can enter the eye of the storm and seek answers as to its origin.
+
+### 24th of Mistro (9 Months, 3 Days):
+
+- With their ship secured on the island, and everyone ready to take notes and make observations from the flotilla, the elite team gathers and sets sail towards the Squall.
+- It takes a few hours, but they eventually near the storm wall, where the grey mass of lightning and rain swirls in a constant churn. Galaxea floats into the air, the ocean water swelling around her and forming two majestic wings formed from water. She lifts a glowing trident into the air, and the nearby storm wall receeds, giving the boat an opening for entry.
+- The boat proceeds into the mist, while the storm rages around them, held back by the power of Galaxea's skill. The boat proceeds for a ways without issue.
+- Suddenly, with an unexpected surge, Galaxea loses her hold on the storm. With an expression of shock, it violently breaks her control and throws her away with a mighty gust of wind. The boat is plunged into a maelstrom of lighting and crashing waves, and the team fights to maintain control of the vessel.
+- In the final moments, Zephyr sees a face looming in the mist and rain, a furious visage that comes crashing down on the vessel, as the storm sunders the boat and sends all its occupants crashing into the churning waters.
+
+### 25th of Mistro (9 Months, 4 Days):
+
+- Waking on a rocky, beach, the party regroups, coughing up water and thoroughly waterlogged. Their ship lies wrecked nearby, and a few of the elves didn't survive. As the team is barely getting their bearings, they notice that they are on an island located at the heart of the hurricane, with the storm wall churning all around them.
+- Before they can make a plan, haunting song drifts over the beach, and they find themselves in a fight to the death with a flock of harpies. Several more of the elves perish to the Harpy's claws, but the team emerges victorious.
+- Realizing the potential for harm, Kazbiel creates a teleportation circle to send the surviving elves back to Drakkengrad, to ensure their safety.
+
+
+
+- Afterwards, the team climbs a cliff and inspects the small island. On a rocky outcropping, they spot a ruined structure which stands out on the otherwise unremarkable island.
+- They begin heading that way, and then receive a Sending from Galaxea. They determine that she survived, but was thrown out of the storm back outside the Squall on her own. She is glad to hear they are mostly unharmed. She insists that the storm is resisting her will, and seems almost... alive.
+- As the party reaches the peak of the hill and investigates the ruins, the find the charred bones of a long dead giant. As they inspect the ruins, Ser notices that the storm wall in the distance appears to have eyes. As he stares back, a face forms in the clouds and emerges from the stormwall, arcing towards the party.
+- Bracing for a fight, the group waits tensely as the clouds coalesce onto the hilltop. They swirl about and take the translucent form of a giant woman, with crackling lightning eyes and blue skin. 
+- Ser speaks Giant, and talks with the entity. It seems neutral towards them, but is protective of the bones. In the discussion, they learn that the giant is a Storm Quintessent, an elevated form of being for a storm giant. She transformed centuries ago when a Blue Dragon known as ***Byvorus*** attacked her and her lover, slaying the giant whose bones now lie before them. Badly wounder. and swearing vengeance, this storm giant transformed into an eternal living storm to trap the evil dragon on this island for all time. It worked, and the monster lives here still, unable to leave, in a cave on the other side of the island.
+
+<img
+src='https://www.gmbinder.com/images/jDUxIuC.png'
+style='position:absolute;bottom:-130px;right:-80px;width:550px'/>
+
+<div class='footnote', style="color:black"> Chapter 11 | The Ceaseless Squall</div>
+
+
+
+- After further bargaining, she agrees to drop the storm and release the party if they can defeat Byvorus. It is immune to her lightning, but if he is destroyed she can finally accept eternal rest.
+- They agree, and set out to seek the Blue Dragon and end him, in a vow to the spirits of the Giants. The spirit dissolves away into clouds, and they travel to the other side of the island.
+- Wind elementals wander near the cave of Byvorus, so to avoid further conflict the party uses the wand of polymorph to turn themselves into squirrels, one at a time, and sneak all the way to the cave.
+- Once they arrive, they stand at the cave mouth and called out for Byvorus, challenging him to show himself.
+- After a pause, a figure emerges from within the cave mouth. It is almost humanoid, resembling a male orc with blue skin, but the horns, jagged teeth, and visible blue scales make it clear this is no mere mortal. Byvorus, in this form, seems delighted at the chance for new prey, and he roars in excitement at these moronic adventurors who have found their way to his front door.
+- With a flash of lightning, Byvorus transforms into his full draconic form. Towering over the part, a looming blue dragon now stretches its wings. Lightning crackles from its gaping maw, and it roars a deafening screech into the stormclouds above as it dashes forward, charging the party and hoping for a contest of strength and violence.
+
+
+
+- The battle is swift and brutal. The dragon's lightning breath wreathes our heroes in searing plasma, badly injuring them. Dhamiria dives into the fray, hacking and slashing with her glaive. Zephyr and Kaz bombard the dragon with fire and magic, and Ser stays back, seeking to encourage his friends and heal them where he can.
+- Byvorus is initially pleased at their resilience, but quickly becomes frustrated, and then furious when they continue to hold their own against him. He knocks Dhamiria down with a tail swipe, and turns to deal with the remaining team. Ser manages to heal Dhmiria briefly, and in that surge of adrenaline and rapidly fading health, Dhamiria strikes the killing blow with her weapon, carving a gash down his abdomen.
+- As Byvorus dies, he roars once more to the sky, and his dying words are that they fought well, and gave him one last thrill. **Byvorus the Galeeater,** Blue Dragon and brother to Old Silverhands, lies slain on the Withered Isle at the center of the Ceaseless Squall.
+- As the party catches their breath, the Storm Giant Spirit appears to them, stunned at their success. Seeing the death of her sworn enemy, the Storm Giant releases her hold on this realm, and ascends to whatever lies beyond. Like fog before the sun, her form dissolves into the air, and the Squall is dispersed from around the island. For the first time in centuries, sunlight touches the wet mud and tossed sands of the island.
+- Zephyr and Kaz harvest parts from the corpse of the freshly slain dragon, while Dhamiria and Ser loot the cave. Within the cave, they find thousands of gold pieces (~30,000), potions, a few spell scrolls, a magical fan, a gem of brightness, and a dagger of venom.
+- Rescue ships approach the island, now that the squall has been vanquished, and the party returns to the Archipelligo to recover and recount their victory.
+
+<img
+src='https://i.postimg.cc/DwtGPkLL/Byvorus.webp'
+style='position:absolute;bottom:-120px;left:-20px;width:650px'/>
+
+<div class='footnote', style="color:black"> Chapter 11 | The Ceaseless Squall</div>

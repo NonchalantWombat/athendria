@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragons</title>
+    <style>
+        .navButton {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Cambria', sans-serif;
+            font-weight: bold;
+        }
+        .navButton:hover {
+            background-color: #45a049;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        body {
+            font-family: 'Cambria', sans-serif; /* Example: Arial font */
+            background-image: url('https://i.postimg.cc/zvgswYv7/Background-Scrolling.jpg'); /* Replace with your image path */
+            background-repeat: repeat; /* This will tile your image across the background */
+            background-attachment: scroll; /* This keeps the image stationary while the content scrolls */
+            background-size: 100% auto; /* This will ensure the image covers the entire background */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        #locationList img {
+            width: 100vw; /* Full viewport width */
+            position: relative; /* Relative positioning */
+            left: -20px; /* Move to the right by 50% of its own width */
+            margin-top: 10px; /* Optional: add some space above the image */
+            margin-bottom: 10px; /* Optional: add some space below the image */
+        }
+    </style>
+</head>
+
+<script>
+function sortList() {
+  var list = document.getElementById('locationList');
+  var items = list.getElementsByTagName('li');
+  var itemsArr = [];
+  for (var i in items) {
+    if (items[i].nodeType == 1) {
+      itemsArr.push(items[i]);
+    }
+  }
+  itemsArr.sort(function(a, b) {
+    return a.innerHTML == b.innerHTML
+            ? 0
+            : (a.innerHTML > b.innerHTML ? 1 : -1);
+  });
+  for (i = 0; i < itemsArr.length; ++i) {
+    list.appendChild(itemsArr[i]);
+  }
+}
+</script>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><button class="navButton" onclick="location.href='ikesh.html'" style="background-color: #49507F">Ikesh</button></li>
+            <li><button class="navButton" onclick="location.href='kamuin.html'" style="background-color: #A3393B">Kamuin</button></li>
+            <li><button class="navButton" onclick="location.href='ebrea.html'" style="background-color: #449A41">Ebrea</button></li>
+            <li><button class="navButton" onclick="location.href='races_of_athendria.html'">Races and Ancestries</button></li>
+            <li><button class="navButton" onclick="location.href='history_of_athendria.html'">Recorded History</button></li>
+            <li><button class="navButton" onclick="location.href='gods_of_athendria.html'">Gods and Deities</button></li>
+            <li><button class="navButton" onclick="location.href='guilds_of_athendria.html'">Guilds and Kingdoms</button></li>
+            <li><button class="navButton" onclick="location.href='dragons_of_athendria.html'">Dragons</button></li>
+        </ul>
+    </nav>
+</header>
+
+<h1><strong>The Dragons of Athendria</strong></h1>
+
+<h2>The Dragons of Athendria: The Capable Crew</h2>
+
+<h3>Hemdorak, the Merciless (Ancient Red):</h3>
+<img src='https://i.postimg.cc/4dV1WGWX/Hemdorak.webp' alt='Hemdorak' style='width:800px;'>
+<p>Originally banished to the elemental chaos nearly 700 years ago, Hemdorak's quasi-permanent removal ended abruptly with the collapsing of the planar seals put in place by Emperor Birru. His ensuing return to the top of Mount Strohlcairn resulted in the utter destruction of the Dragonborn mountain city of Thaumdural, and the resident Dragonborn were scattered to the corners of Athendria. This diaspora of the Dragonborn people has never been restored. Some time later, the famous Capable Crew returned with a few Dragonborn heroes to end the firey menance, and slew him atop the mountain in a pool of lava. Notrick the Brave burrowed into his chest, and extracted his heart, harvesting a large quantity of Red Cardium. This was eventually crafted, along with many other elements, into the legendary blade known as Thunderfury. Hemdorak's bones lie in a pool of magma, atop the volcanic peak, surrounded by the ruins of Thamdural. The portal to the Plane of Fire remains, and the fiendish sorceror known as Demiurge has established a base of operations among the ruins, seeking to capitalize upon planar trade.</p>
+
+<h3>Syvleth, the Rotten (Ancient Pestilence):</h3>
+<img src='https://i.postimg.cc/7hqSX2CN/Syvleth.webp' alt='Syvleth' style='width:900px;'>
+<p>Awakening within a secret Velkian lab, deep within the rainforests of Arabangan, this heinous chimera of a black and green dragon emerged and quickly spread a contagious miasma over the region. Syvleth was a pestilence dragon, a true horror wrought by Velkian science and never intended to be released. The Velkian Dissidents removing the power crystal during their investigations into available technologies in the region led to her escape, and the mammalian species in the tropics all suffered greatly as a result. Syvleth was eventually defeated by the Capable Crew in their pursuit to track down the Dissidents, knocked low by the might of their new sword, Dragonsbane. After her demise, the miasma was dispersed, and the locals were able to gradually return to the tropical areas of Ebrea.</p>
+
+<h2>The Dragons of  Athendria: The  Gateholders</h2>
+
+<h3>Gellureth, the Ivory Demise (Young White):</h3>
+<img src='https://i.postimg.cc/0j7HKmTd/Gellureth-2.webp' alt='Gellureth' style='width:600px;'>
+<p>Once a reclusive white dragon living in the Worldspine peaks, Gellureth terrorized the local population of Frost Giants in order to collect a hoard of rare and potent magic items. Gellureth was displaced by Goht Du'mag, a powerful purple Pit Fiend who arrived in the region to take over his wealth and wrest control of the Frost Giants away from him. Forced to flee, Gellureth traveled to Attiwich Loch, seeking new sources of wealth. There, he arrived at Harmstead, a small lakeside town, and made it his new home, displacing all the townsfolk. The Heroes of Harmstead (not yet called by this name) arrived to challenge him, and to escort the refuges. After a brief and tense trade of words, St. Chadwick Broheart (then a lowly paladin), convinced the dragon to fight them inside a cave, to even the playing field and "prove" Gellureth's power. After a brief and terrible battle, Chad managed to fly into the dragon's lungs via Gaseous Form, and even though he managed to slay the beast from within, died from the cold exposure in the process. Chad was brought back to life by Galaxea Elsinor, and the team was lavished with gifts and praise by the people of Gnomeopolis. Gellureth's horn and Chad's sword now reside at the Dragonsfall Tavern in Gnomeopolis, as testament to the events that transpired, and to Chad's bravery and bravado.</p>
+
+<h3>Umbralax, the Banished (Ancient Black):</h3>
+<img src='https://i.postimg.cc/1XdbDsXs/Umbralax.webp' alt='Umbralax' style='width:600px;'>
+<p>From an era unknown, the ancient black dragon Umbralax was banished to the 632nd layer of the Abyss by ancient powers. The Gateholders discovered that Umbralax was in possession of one of the six Fists of Hextor, dark and powerful relics which Chad Broheart was seeking to uncover and seal away. After convincing Duke Janos Dragonslayer, weilder of Dragonsbane, to join them, the party transported themselves into the Abyss to find and destroy Umbralax. They found the monster deep within an endless swamp, surrounded by demons. After defeating him, Umbralax was ressurrected by the power of the Fist, causing him to sprout additional arms and wield terrible necrotic power. The undead monstrosity was eventually defeated, and the Fist of Hextor extracted from his corpse, where it was eventually sealed away into Nangshi Monastery in the Astral Sea.</p>
+
+<h2>The Dragons of  Athendria: The  Greymoore Gang</h2>
+
+<h3>Byvorus the Gale-Eater (Adult Blue):</h3>
+<img src='https://i.postimg.cc/pr5FXJnk/Byvorus.webp' alt='Byvorus' style='width:800px;'>
+<p>Byvorus was once the brother to a silver dragon (now known as Old Silverhands), and the two were inseparable. They lorded over the southwestern regions of Ikesh, and none could stop them. One day, they flew out over the Twilight Archipelligo, and landed upon an island. There, they encountered two reclusive Storm Giants, who had made it their home. Seeing the kinship of the Storm Giant sisters, Old Silverhands suggested they, leave; however, Byvorus, knowing his lightning immunity would grant him an advantage, attacked and slew one of the sisters. Seeing for the first time the depths of evil in the heart of his brother, Old Silverhands fled in despair. The remaining Storm Giant, in her grief, invoked an ancient ritual, transforming into a living storm to trap and imprison Byvorus as punishment. This hurricane, centered on the lonely island, became known as the Ceaseless Squall, and persisted for centuries. Much later, a joint research expedition led by Typhon from Lysanor and Galaxea Elsinor from Uthorim sought to pierce the storm and investigate its source. The Greymoore Gang attempted to sail through it with Galaxea's aid, but were swept away and became marooned on the island. After managing to discover the cause of the storm by speaking with the spirit of the Storm Giant sister, and striking down Byvorus, they released her spirit and ended the storm. Old Silverhands was saddened to learn of his brother's passing, but accepted it as inevitable.</p>  
+
+<h3>Moorvuna the Voiceless One (Elder Brain Dragon):</h3>
+<img src='https://i.postimg.cc/rp2Q6z3v/Moorvuna.webp' alt='Moorvuna' style='width:600px;'>
+<p>An ancient dragon who lived in the underdark, Moorvuna was once a champion of justice and a dangerous foe to the evil drow worshippers of Llolth. She singlehandedly drove them out from their stronghold of Silh Unareth, making it her home. Centuries later, following the psionic awakening of Athendria in the wake of the Aboleth Invasion, Mind Flayers rose from the depths and ambushed her in her lair, successfully converting her into a puppet of their Elder Brain. It fused into her body, and flew to the surface world, breaking forth from the center of the capital city of Buhlgraz. The Elder Brain Dragon was eventually defeated by the Greymoore Gang when it assaulted them upon their airship, the Perilous Peryton, attempting to steal their Astral Engine technology to use in its conquest of the surface world.</p>
+
+<h3>Atrexalon, the Forgotten (Greatwyrm/Dragon God):</h3>
+<img src='https://i.postimg.cc/hGGbRxMZ/Atrexalon.webp' alt='Atrexalon' style='width:900px;'>
+<p>The Source of all gemstone dragons, Atrexalon the dragon god is one of the Draconic Triad: Bahamut, Tiamat, and himself. Eons ago, during the era of the Ascendants, Atrexalon was weakened and defeated by the efforts of an ancient bard known as Rhu'Darok. This mage managed to cast the spell Sleep at 10th level, a feat that has never been replicated since. In this casting, Atrexalon fell into a deep sleep for 1000+ years. All the gemstone dragons across Athendria were encased into impenetrable crystal spheres, and all knowledge of the crystal dragons was banished from the world's collective memory. Over his slumbering form, the Olmothian Woods grew, and the Great Alder became the focal point for the Alder Conclave, a commune for druids. Eventually, the enchantment began to weaken. The Archduid Spinel sought to reinforce the mysterious magic and prevent the emergence of an unknown ancient evil. With the help of the other druids and the protolich Gowron, she cast a preservation spell to prevent the ending of Rhu'Darok's magic; however, the inevitable power of Atrexalon corrupted the magic, imprisoning the druids and spreading a horrible crystalline Darkness across the Deepwoods. This corrupting influence could be first sensed as an ominous humming, deep in the mind of those near the region. Ser Primus, of the Greymoore Gang, sought to uncover the source of the Darkness and dispel it. Eventually, with the aid of fellow heroine Zephyr Cy, he arrived at the Great Alder, weilding the mythical Tabor of Rhu'Darok. Ser dispelled the corrupted magic of the druids, destroying the Darkness, but in the process ending the Sleep spell keeping Atrexalon at bay. As the Greatwyrm rose from the Deepwoods, leaving a valley in his wake, gemstone dragons emerged across the world, causing chaos and wreaking havoc upon unsuspecting cities and towns. Atrexalon flew across the ocean to the top of Godsgate Mountain, where he slumbered for many months as the trace amounts of the spell resolved. Eventually he fully awakened, and Atrexalon swam through the oceans of Athendria, surrounded by a host of gemstone dragons and wyverns. He was eventually lured to the Stonefields in southern Ikesh, where the Greymoore Gang and a powerful gathering of mages banished Atrexalon forever to the plane of Limbo.</p>
+
+</body>
+</html>
